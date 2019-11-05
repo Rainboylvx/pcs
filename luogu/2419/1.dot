@@ -1,0 +1,10 @@
+digraph title {
+    node[shape=circle fixedsize=true style=filled fillcolor=white colorscheme=accent8 ];
+1->5;
+1->2;
+1->3;
+2->3;
+2->4;
+2->5;
+3->5;
+}
