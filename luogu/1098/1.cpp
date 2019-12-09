@@ -1,75 +1,62 @@
-// 动态开点线段树,不使用离散化
+/*-----------------
+* author: Rainboy
+* email: rainboylvx@qq.com
+* time: 2019年 07月 22日 星期一 12:24:19 GMT
+* problem:  luogu-P1098
+*----------------*/
 #include <bits/stdc++.h>
 using namespace std;
 
-#define XXX 1e9
-
-/* ======= 全局变量 =======*/ int n;
-long long ans;
-const int maxn = 1e7+5;
-
-// 动态开点线段树 内存池
-int root,cnt; //线段树的根,结点计数
-struct _tree{ int val,l,r; } tree[maxn];
-
-/* ======= 全局变量 END =======*/
-
-void newnode(int &p,int val){
-    p = ++cnt;
-    tree[p].val = val;
-    tree[p].l = tree[p].r = 0;
-}
-
-inline void push_up(int p){
-    tree[p].val = tree[ tree[p].l ].val + tree[ tree[p].r ].val ;
-}
-
-/* 单点更新*/
-void update(int &u ,int L,int R,int pos,int val){
-    if( !u )     //建立点
-        newnode(u, 0);
-    if( L == R ) {//叶子结点
-        tree[u].val += val;return;
-    }
-    int m = (L+R) >> 1;
-    if( pos<=m ) //在左边
-        update(tree[u].l, L,m,pos,val);
-    else
-        update(tree[u].r, m+1,R,pos,val);
-    push_up(u);
-}
-
-/* 区间求和 */
-int query_sum(int u,int L,int R,int l,int r){
-    /* 边界: 这个点不存在 */
-    if( !u ) return 0;
-    /* 边界: 完全包含 */
-    if( l <= L && R <=r)
-        return tree[u].val;
-
-    int m = (L+R) >> 1;
-    int sum = 0;
-    if( l <= m)
-        sum+= query_sum(tree[u].l, L, m, l, r);
-    if( r > m )
-        sum+= query_sum(tree[u].r, m+1, R, l, r);
-    return sum;
-}
+int p1,p2,p3;
+char str[1000];
+char tmp[500];
+int idx = 0;
 
 
 int main(){
-    clock_t program_start_clock = clock(); //开始记时
-    //===================
-    scanf("%d",&n);
-    int i,t;
-    for(i=1;i<=n;i++){
-        scanf("%d",&t);
-        ans += query_sum(root, 1, XXX, t+1, XXX);
-        update(root, 1, XXX, t, 1);
-    }
-    printf("%lld\n",ans);
+    
+    scanf("%d%d%d",&p1,&p2,&p3);
+    scanf("%s",str+1);
+    int len = strlen(str+1);
+    int i,j,k;
+    for (i=1;i<=len;i++){
+        char c = str[i];
+        if(c == '-'){
+            if(!((str[i-1] >='a' && str[i+1]<='z') || (str[i-1] >='0' && str[i+1]<='9')) ){
+                printf("-");
+                continue;
+            }
+            if( str[i-1]  >= str[i+1]){
+                printf("%c",c);
+            }
+            else if( str[i-1]  +1 == str[i+1])
+                continue;
+            else {
+                idx = 0;
+                memset(tmp,0,sizeof(tmp));
+                for(j=str[i-1]+1 ;j<str[i+1];j++){
+                    for (k=1;k<=p2;k++){
+                        if( p1 == 1)
+                            tmp[idx++] = tolower(j);
+                        else if( p1 == 2)
+                            tmp[idx++] = toupper(j);
+                        else 
+                            tmp[idx++] = '*';
+                    }
+                }
+                if( p3 == 1) {
+                    printf("%s",tmp);
+                } else {
+                    int l = strlen(tmp);
+                    for(k=l-1;k>=0;k--){
+                        printf("%c",tmp[k]);
+                    }
+                }
+            }
+        }
+        else
+            printf("%c",c);
 
-    //=================== 
-    fprintf(stderr,"\n Total Time: %lf ms",double(clock()-program_start_clock)/(CLOCKS_PER_SEC / 1000));
+    }
     return 0;
 }
