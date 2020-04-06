@@ -11,3 +11,7 @@ output/
 upload.sh
 .ccls-cache
 bin/
+in
+*.in
+*.out
+*.ans
