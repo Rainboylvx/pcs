@@ -1,0 +1,23 @@
+graph g {
+    node[shape=circle fixedsize=true style=filled fillcolor=white colorscheme=accent8 ];
+    1--8;
+2--9;
+3--10;
+3--5;
+3--9;
+4--8;
+4--10;
+4--7;
+4--8;
+4--10;
+4--7;
+5--9;
+5--7;
+5--9;
+6--7;
+7--10;
+8--10;
+8--10;
+
+}
+

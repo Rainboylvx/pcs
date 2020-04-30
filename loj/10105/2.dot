@@ -1,0 +1,11 @@
+digraph g {
+    node[shape=circle fixedsize=true style=filled fillcolor=white colorscheme=accent8 ];
+    2->3;
+2->5;
+3->4;
+1->2;
+4->2;
+5->1;
+
+}
+

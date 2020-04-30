@@ -1,0 +1,19 @@
+digraph g {
+    node[shape=circle fixedsize=true style=filled fillcolor=white colorscheme=accent8 ];
+    v->x;
+x->z;
+z->n;
+n->t;
+t->k;
+k->b;
+b->g;
+g->i;
+i->m;
+m->h;
+h->o;
+o->m;
+m->v;
+v->x;
+
+}
+

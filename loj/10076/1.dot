@@ -1,0 +1,8 @@
+graph title {
+    node[shape=circle fixedsize=true style=filled fillcolor=white colorscheme=accent8 ];
+1--2[label="100"];
+2--4[label="200"];
+2--3[label="100"];
+3--4[label="100"];
+1--4[label="301"];
+}

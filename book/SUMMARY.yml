@@ -1,3 +1,6 @@
 - 
   title: "《信息学奥赛一本通》提高版"
-  path: _YBTTG.md
+  path: ../loj/_YBTTG.md
+- 
+  title: "《算法竞赛进阶指南》"
+  path: ../算法竞赛进阶指南/_题目.md
