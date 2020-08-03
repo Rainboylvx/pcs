@@ -1,0 +1,19 @@
+graph title {
+    node[shape=plaintext  colorscheme=accent8 ];
+    1[
+        label=< <TABLE CELLBORDER="1" BORDER="0" CELLSPACING="0" CELLPADDING="5">
+            <tr>
+                <td PORT="">   </td>
+                <td PORT="">   </td>
+                <td PORT="21"> 2 </td>
+                <td PORT="31"> 3 </td>
+                <td PORT="">   </td>
+                <td PORT="">   </td>
+                <td PORT="32"> 3 </td>
+                <td PORT="22"> 2 </td>
+            </tr>
+        </TABLE> >
+    ]
+    1:31--1:32;
+    1:21:s--1:22:s;
+}

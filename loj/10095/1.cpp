@@ -77,6 +77,7 @@ namespace Tarjan_QLT {
         if( dfn[u] == low[u]){
             color_cnt++;
             int t = -1;
+            int _min = 0x7f7f7f7f;
             do {
                 t = sta.top(); sta.pop();
                 instack[t] = 0;
@@ -87,26 +88,58 @@ namespace Tarjan_QLT {
     }
     void work(int n){
         for( int i =1;i<=n;i++){ //从每个点开始
-            if( !dfn[i]) tarjan(i);
+            if( !dfn[i] ) tarjan(i);
         }
     }
 }
 // ========== tarjan 求强连通分量 END
 
 using namespace Tarjan_QLT;
+bool vis[maxn];
+void dfs(int u){
+    vis[u] = 1;
+    int i;
+    for(i= xlx1::head[u]; ~i ;i = xlx1::e[i].next){
+        int &v = xlx1::e[i].v; int &w = xlx1::e[i].w;
+        if( vis[v]) continue;
+        dfs(v);
+    }
+}
+int biao_ji(){
+    int i;
+    for( i =1;i<=n;i++){
+        if( !vis[i] && spen[i] != 0x7f7f7f7f){
+            dfs(i);
+        }
+    }
+    for(i=1;i<=n;i++) if(!vis[i]) return i;
+    return -1;
+}
+
 
 int main(){
     clock_t program_start_clock = clock(); //开始记时
     //===================
-    init();
-    work(n);
-    memset(spen2,0x7f,sizeof(spen2));
     int i,j;
+    init();
     For(i,1,edge_cnt){
         int u = e[i].u;
         int v = e[i].v;
-        spen2[color[u]] = min( spen2[color[u]], spen[u]);
-        spen2[color[v]] = min( spen2[color[v]], spen[v]);
+        //if( u == 6 || v == 6){
+            //printf("yes 0\n\n");
+        //}
+    }
+    work(n);
+    memset(spen2,0x7f,sizeof(spen2));
+    For(i,1,n){
+        spen2[color[i]] = min( spen2[color[i]], spen[i]);
+    }
+    For(i,1,edge_cnt){
+        int u = e[i].u;
+        int v = e[i].v;
+        //if( u == 6 || v == 6){
+            //printf("yes\n\n");
+        //}
         if( color[u] == color[v]) continue;
         indgree[color[v]]++;
     }
@@ -115,12 +148,7 @@ int main(){
         if( indgree[i] == 0){
             if( spen2[i] == 0x7f7f7f7f){
                 printf("NO\n");
-                For(j,1,n){
-                    if( color[j] == i){
-                        printf("%d\n",j);
-                        break;
-                    }
-                }
+                printf("%d\n",biao_ji());
                 return 0;
             }
             ans += spen2[i];

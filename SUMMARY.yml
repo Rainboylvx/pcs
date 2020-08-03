@@ -1,3 +1,6 @@
 - 
   title: "书籍的题目"
   path: book/
+- 
+  title: "比赛的题目"
+  path: contest_目录/
