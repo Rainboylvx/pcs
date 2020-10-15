@@ -6,6 +6,11 @@ update: 2020-07-30 17:06
 author: Rainboy
 ---
 
+## noip2017
+
+ - [数字游戏](/article/luogu-P5660)
+ - [公交换乘](/article/luogu-P5661)
+ - [纪念品](/article/luogu-P5662)
 
 ## noip2017
 
@@ -30,4 +35,25 @@ author: Rainboy
 ## noip2013
 
  - [计数问题](/article/luogu-P1980)
- - [](/article/luogu-P1980)
+ - [表达式求值](/article/luogu-P1981)
+
+## noip2012
+
+ - [质因数分解](/article/luogu-P1075)
+ - [寻宝](/article/luogu-P1076)
+ - [摆花](/article/luogu-P1077)
+
+## noip2011
+
+ - [数字反转](/article/luogu-P1307)
+ - [统计单词数](/article/luogu-P1308)
+
+## noip2010
+
+ - [数字统计](/article/luogu-P1179)
+ - [接水问题](/article/luogu-P1190)
+
+## noip2009
+
+ - [](/article/luogu-P)
+ - [](/article/luogu-P)

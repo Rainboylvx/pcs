@@ -35,7 +35,7 @@ void init(){
     f[0][0] = 1;
     //马能到达的点
     int i;
-    For(i,0,7){
+    for(i=0;i<=7;i++){
         int nx = xa + fx[i][0];
         int ny = ya + fx[i][1];
         //在地图内

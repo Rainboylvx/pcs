@@ -1,10 +1,6 @@
 #include <cstdio>
 #include <cstring>
-#include <algorithm>
-using namespace std;
 
-
-int _min = 999999999;
 #define MAX(A,B) (A> B ?A : B)
 const int maxn = 20005;
 const int maxm = 1e5+5;
@@ -15,7 +11,7 @@ int n,m;
 bool color[maxn];
 bool vis[maxn];
 int _max=-1;
-/* ================= 向量星 =================*/
+/* ================= 鍚戦噺鏄?=================*/
 int head[maxn];
 int edge_cnt = 0;
 struct _e{
@@ -36,7 +32,7 @@ void addEdge(int u,int v,int w){
     head[u] = edge_cnt;
 }
 
-/* 函数重载 */
+/* 鍑芥暟閲嶈浇 */
 void addEdge(int u,int v){
     edge_cnt++;
     e[edge_cnt].u = u;
@@ -44,7 +40,7 @@ void addEdge(int u,int v){
     e[edge_cnt].next = head[u];
     head[u] = edge_cnt;
 }
-/* ================= 向量星 end =================*/
+/* ================= 鍚戦噺鏄?end =================*/
 
 
 void init(){
@@ -57,7 +53,6 @@ void init(){
         addEdge(a,b,c);
         addEdge(b,a,c);
         _max = MAX(_max,c);
-        _min = min(_min,c);
     }
 }
 
@@ -115,7 +110,5 @@ int main(){
     init();
     int ans = first_ge();
     printf("%d\n",ans);
-    printf("%d\n",_min);
     return 0;
 }
-

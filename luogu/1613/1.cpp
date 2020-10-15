@@ -23,9 +23,7 @@ namespace xlx1 {
     int head[maxn],edge_cnt = 0;
     struct _e{ int u,v,w,next; }e[maxe];
     void inline xlx_init(){ edge_cnt = 0; memset(head,-1,sizeof(head)); } 
-    void addEdge(int u,int v,int w=0){ e[edge_cnt] = { .u = u,.v=v,.w=w,.next =head[u]}; head[u] = edge_cnt++; }
-    void add(int u,int v,int w=0){ addEdge(u, v,w); addEdge(v, u,w);}
-}
+    void addEdge(int u,int v,int w=0){ e[edge_cnt] = { .u = u,.v=v,.w=w,.next =head[u]}; head[u] = edge_cnt++; } void add(int u,int v,int w=0){ addEdge(u, v,w); addEdge(v, u,w);} }
 /* ========= 向量星 1 END =========*/
 void init(){
     scanf("%d%d",&n,&m);
