@@ -23,6 +23,7 @@ namespace RAND {
 }
 
 int main(){
+    RAND::init();
     int n = 4;
     printf("%d\n",n);
     int i,j;
