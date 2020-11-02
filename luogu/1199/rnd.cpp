@@ -9,30 +9,23 @@ using namespace std;
 const int maxn = 1e5+5;
 int n,m;
 
-namespace RAND {
-    void init(){
-        srand(time(0));
-    }
-    int rand0N(int n){
-        return rand() % (n+1);
-    }
-    int randLR(int l,int r){
-        return rand0N(r-l) + l;
-        //(0,r-l) + l = (l,r)
-    }
+random_device rd;
+mt19937 rnd(rd());
+uniform_int_distribution<int> dis(1,99);
+
+int randLR(){
+    return dis(rnd);
 }
 
 int main(){
-    RAND::init();
-    int n = 4;
+    int n = 6;
     printf("%d\n",n);
     int i,j;
     for(i=1;i<=n-1;++i){
         for(j=i+1;j<=n;++j){
-            printf("%d ",RAND::randLR(1,10));
+            printf("%d ",randLR());
         }
         printf("\n");
     }
-
     return 0;
 }

@@ -1,7 +1,6 @@
 /* author: Rainboy  email: rainboylvx@qq.com  time: 2020年 10月 16日 星期五 11:22:43 CST */
 #include <bits/stdc++.h>
 using namespace std;
-
 #ifndef DEBUG
 #define debug(...)
 #endif
@@ -9,6 +8,7 @@ using namespace std;
 const int maxn = 505;
 int n,m;
 int a[maxn][maxn];
+int max1 =-1,max2 = -1;
 
 void init(){
     scanf("%d",&n);
@@ -17,9 +17,14 @@ void init(){
         for(j=i+1;j<=n;j++){
             scanf("%d",&a[i][j]);
             a[j][i] = a[i][j];
+            if( a[i][j] > max1) {
+                max2 = max1;
+                max1 = a[i][j];
+            }
+            else if( a[i][j] > max2)
+                max2 = a[i][j];
         }
-    }
-}
+    } }
 
 int ca[maxn],cb[maxn];
 bool vis[maxn];
@@ -53,18 +58,8 @@ int find_max2(int b[]){
 int ANS = -1;
 void dfs(int dep){
     if( dep == (n/2)+1){
-        int i,j;
-        printf("A: ");
-        for(i=1;i<=n/2;++i) printf("%d ",ca[i]);
         int d = find_max2(ca);
-        printf("MAX = %d\n",d);
-        printf("\nN: ");
         ANS = max(ANS,d);
-        for(i=1;i<=n/2;++i) printf("%d ",cb[i]);
-        d = find_max2(cb);
-        printf("MAX = %d\n",d);
-        printf("\n================\n\n");
-        
         return;
     }
     for(int i=1;i<=n;i++){
@@ -86,6 +81,14 @@ void dfs(int dep){
 
 int main(){
     init();
+    int i,j;
+    for(i=1;i<=n;++i){
+        for(j=1;j<=n;++j){
+            printf("%2d ",a[i][j]);
+        }
+        printf("\n");
+    }
+    printf("+++++++++\n");
 
     //ca[1] = 2;
     //ca[2] = 3;
@@ -94,6 +97,7 @@ int main(){
     dfs(1);
     printf("%d\n",1);
     printf("%d\n",ANS);
+    printf("max1 = %d \nmax2= %d\n",max1,max2);
 
     return 0;
 }
