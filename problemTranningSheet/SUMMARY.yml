@@ -1,3 +1,9 @@
 - 
   title: luogu训练场
-  path: luogu训练场.md
+  path: luogu训练场/
+- 
+  title: usaco训练题目
+  path: USACO训练题目.md
+- 
+  title: noiOpenJudge
+  path: ../noiOpenJudge/index.md
