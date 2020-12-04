@@ -81,6 +81,23 @@ bool EF::check(int mid){
     return cnt <= n-1;
 }
 
+namespace EF2 {
+    bool check(int mid);    //函数声明
+    int work(int l,int r){
+        while( l != r){
+            int mid = (l+r)>>1;
+            if( check(mid) ) l = mid+1;
+            else r = mid;
+        }
+        return l;
+    }
+}
+int ef2head = 1;
+bool EF2::check(int mid){
+    
+}
+vector<int> ef2a;
+
 int main(){
     init();
     if( m == 1){
@@ -100,9 +117,11 @@ int main(){
         return 0;
     }
 
-    if( is_ai_1 ){
-        EF::
-
+    if( is_ai_1 ){ //菊花树 二分
+        for(int i=e.h[1];~i;i=e[i].next){
+            ef2a.push_back(e[i].w);
+        }
+        sort(ef2a.begin(),ef2a.end());
         return 0;
     }
 
