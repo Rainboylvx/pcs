@@ -57,3 +57,7 @@ author: Rainboy
 
  - [](/article/luogu-P)
  - [](/article/luogu-P)
+
+## noip2017
+
+ - [棋盘](/article/luogu-P3956)
