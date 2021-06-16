@@ -3,17 +3,12 @@ using namespace std;
 
 int A,B,C;
 bool vis[105][105] = {0};
-
-/* 操作序列 */
 char opts[10][100] = { "FILL(1)", "FILL(2)", "DROP(1)", "DROP(2)", "POUR(1,2)", "POUR(2,1)" };
 
-/* 描述两个水壶的 状态 */
 struct sta {
     int a,b,step;
 };
-int end_a,end_b; // 终止状态
 
-/* 记录操作的 步骤 */
 struct _NOW {
     int opt;
     int pre_a,pre_b;
@@ -24,8 +19,6 @@ void init(){
     memset(pre,-1,sizeof(pre));
     scanf("%d%d%d",&A,&B,&C);
 } 
-
-/* 进行6种操作 */
 sta do_opt(int idx,sta now){
     int a = now.a;
     int b = now.b;
@@ -66,6 +59,7 @@ sta do_opt(int idx,sta now){
         return sta{a,b};
     }
 }
+int end_a,end_b;
 
 int bfs(){
     queue<sta> q;
@@ -75,14 +69,14 @@ int bfs(){
         sta h = q.front(); q.pop();
         int i;
         for(i = 0 ;i < 6;i++){
-            sta now = do_opt(i, h); //操作
-            if( now.a == C ||  now.b == C){ //停止
+            sta now = do_opt(i, h);
+            if( now.a == C ||  now.b == C){
                 pre[now.a][now.b] = { i,h.a,h.b };
                 end_a = now.a;
                 end_b = now.b;
                 return h.step +1;
             }
-            if( vis[now.a][now.b] == 0){ // 得到下一个状态
+            if( vis[now.a][now.b] == 0){
                 pre[now.a][now.b] = { i,h.a,h.b };
                 now.step = h.step+1;
                 vis[now.a][now.b] = 1;
