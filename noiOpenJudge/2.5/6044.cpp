@@ -26,165 +26,100 @@
  * +###*
  * */
 
-#include <cstdio>
-#include <cstring>
+/* author: Rainboy email: rainboylvx@qq.com  time: 2021年 06月 20日 星期日 19:51:33 CST */
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+const int maxn = 1e6+5,maxe = 1e6+5; //点与边的数量
 
+int n,m,T;
+/* 定义全局变量 */
+char mg[400][400];
+int sx,sy,tx,ty;
+struct node {
+    int x,y,step,t;
+};
 
-int m,n,T;
-
-char map[400][400];//地图数据
-
+int ST[400][400]; //到这个点的剩余 查克拉
 bool vis[400][400];
-int ST[400][400];//点剩余的T
 
 
-/* 队列 */
-struct _node {
-    int x,y;
-    int step;
-    int T;
-    int pre;
-};
-
-_node queue[40000];
-int head,tail;
-
-
-_node s,t;//起点,终点
-
-int fx[4][2]={{1,0},{0,1},{-1,0},{0,-1}};
-
-
-int ttt=0;
-
-struct _node2{
-    int x,y;
-    int pre;
-};
-
-
-
-bool isRight(int x,int y){
-    if( x>0 && x<=m && y>0 && y <=n)
-        return true;
-    return false;
-}
-
-
-void print(int head){
-    int i=head;
-    for(;queue[i].pre!=0;i=queue[i].pre)
-        printf("{%d,%d}<-",queue[i].x,queue[i].y);
-}
-
-void bfs(){
-    /* 初始化一些数据 */
-    head=tail=0;
-    tail++;
-    queue[tail]=s;
-    queue[tail].step=0;
-    queue[tail].T=T;
-    queue[tail].pre=0;
-    ST[s.x][s.y]=T;
-
-    memset(vis,0,sizeof(vis));
-    vis[s.x][s.y] =1;//起点vis过
-
-    while(head != tail){
-        /* 取出头部 */
-        
-        head++;
-        int x = queue[head].x;
-        int y = queue[head].y;
-        int nt = queue[head].T;
-        int ns = queue[head].step;
-
-        int i;
-        for (i=0;i<=3;i++){
-            int nx = x+fx[i][0];
-            int ny = y+fx[i][1];
-
-            if(nx == t.x && ny ==t.y){ //终点
-                //print(head);
-                printf("%d",ns+1);
-                return ;
+void init(){
+    scanf("%d%d%d",&n,&m,&T);
+    for(int i=1;i<=n;++i){
+        scanf("%s",mg[i]+1);
+        for(int j=1;j<=m;++j){
+            if( mg[i][j] == '@' ) {
+                sx = i, sy =j;
             }
-
-
-            if(isRight(nx,ny)){ //这个点在map内
-                if(vis[nx][ny] == 0){ //这个点没有被vis过
-                    if(map[nx][ny] == '#' && nt >0){ //手下,能走
-                        //入队
-                        tail++;
-                        queue[tail].x =nx;
-                        queue[tail].y =ny;
-                        queue[tail].T =nt-1;
-                        queue[tail].step =ns+1;
-                        queue[tail].pre =head;
-
-                        //标记
-                        ST[nx][ny] = nt-1;
-                        vis[nx][ny]=1;
-                    }
-                    else if(map[nx][ny] == '*'){ // 不是手下
-                        //入队
-                        tail++;
-                        queue[tail].x =nx;
-                        queue[tail].y =ny;
-                        queue[tail].T =nt;
-                        queue[tail].step =ns+1;
-                        queue[tail].pre =head;
-
-                        //标记
-                        ST[nx][ny] = nt;
-                        vis[nx][ny]=1;
-                    }
-
-                }
-                else  //vis过
-                    if(map[nx][ny]=='#' && ST[nx][ny] < nt-1){//但剩T更少
-                        //入队
-                        tail++;
-                        queue[tail].x =nx;
-                        queue[tail].y =ny;
-                        queue[tail].T =nt-1;
-                        queue[tail].step =ns+1;
-                        queue[tail].pre =head;
-
-                        //标记
-                        ST[nx][ny] = nt-1;
-                    }
-                    else if(map[nx][ny]=='*' && ST[nx][ny] < nt){//但剩T更少
-                        //入队
-                        tail++;
-                        queue[tail].x =nx;
-                        queue[tail].y =ny;
-                        queue[tail].T =nt;
-                        queue[tail].step =ns+1;
-                        queue[tail].pre =head;
-
-                        //标记
-                        ST[nx][ny] = nt;
-                    }
+            if( mg[i][j] == '+' ) {
+                tx = i, ty =j;
             }
         }
     }
-    printf("-1");
-    return ;
+}
+
+/* 顺时针-4个方向 */
+int fx[][2] = { {-1,0}, {0,1}, {1,0}, {0,-1} };
+
+bool in_mg(int x,int y){
+    return x>=1 && x<= n &&  y>=1 && y <=m;
+}
+
+int bfs(){
+    queue<node> q;
+    q.push({sx,sy,0,T});
+    vis[sx][sy] =1;
+    ST[sx][sy] = T;
+
+    while ( !q.empty() ) {
+        node h = q.front();
+        q.pop();
+
+        if(h.x == tx && h.y == ty ) return h.step;
+        if( h.step >= n*m) return -1;
+
+        for(int i=0;i<=3;++i){
+            int nx  = h.x+ fx[i][0];
+            int ny  = h.y+ fx[i][1];
+            if( !in_mg(nx,ny) ) continue;
+            
+            int ns = h.step+1;
+            //printf("(%d %d %d %d) ->",h.x,h.y,h.step,h.t);
+            if( vis[nx][ny] == 0){
+                if( mg[nx][ny] == '#' ){
+                    if(  h.t -1 >=0){
+                        q.push({nx,ny,ns,h.t-1});
+                        vis[nx][ny] = 1;
+                    }
+                }
+                else {
+                    q.push({nx,ny,ns,h.t});
+                    vis[nx][ny] = 1;
+                }
+            }
+            else { //已经到，现在step一定大，
+                if( mg[nx][ny] == '#' ){
+                    if(  h.t -1 >=0 && h.t-1 > ST[nx][ny]){
+                        q.push({nx,ny,ns,h.t-1});
+                        ST[nx][ny] = h.t-1;
+                    }
+                }
+                else if(h.t > ST[nx][ny] ) {
+                    q.push({nx,ny,ns,h.t});
+                    ST[nx][ny] = h.t;
+                }
+            }
+
+        }
+    }
+
+    return -1;
 }
 
 int main(){
-    scanf("%d%d%d",&m,&n,&T);
-    int i,j;
-    for (i=1;i<=m;i++){
-            scanf("%s",&map[i][1]);
-            for (j=1;j<=n;j++){
-                if(map[i][j] == '+')
-                    t.x=i,t.y=j;
-                else if(map[i][j] == '@')
-                    s.x=i,s.y=j;
-            }
-    }
-    bfs();
+    init();
+    int ans = bfs();
+    printf("%d",ans);
     return 0;
 }
