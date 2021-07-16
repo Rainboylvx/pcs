@@ -1,1 +1,15 @@
-Ly8xLjQtNQojaW5jbHVkZSA8Y3N0ZGlvPgoKaW50IG1haW4oKXsKICAgIGxvbmcgbG9uZyB4LHk7CiAgICBzY2FuZigiJWxkJWxkIiwmeCwmeSk7CiAgICBpZiggeCA+IHkpCiAgICAgICAgcHJpbnRmKCI+Iik7CiAgICBlbHNlIGlmICggeCA9PSB5KQogICAgICAgIHByaW50ZigiPSIpOwogICAgZWxzZQogICAgICAgIHByaW50ZigiPCIpOwogICAgcmV0dXJuIDA7Cn0KCg==
+//1.4-5
+#include <cstdio>
+
+int main(){
+    long long x,y;
+    scanf("%ld%ld",&x,&y);
+    if( x > y)
+        printf(">");
+    else if ( x == y)
+        printf("=");
+    else
+        printf("<");
+    return 0;
+}
+
