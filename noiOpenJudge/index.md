@@ -292,6 +292,9 @@ OJ地址: http://noi.openjudge.cn/
   - [:one: 三个三位数](/article/noiOpenJudge-2.1-三个三位数)
   - [:one: 火车上的人数](/article/noiOpenJudge-2.1-火车上的人数)
   - [:one: Cantor表](/article/noiOpenJudge-2.1-Cantor表)
+
+- :white_check_mark: 2.2 基本算法之递归和自调用函数
+  - [1696:逆波兰表达式](/article/noiOpenJudge-2.2-1696)
 - :construction: 2.5基本算法之搜索(36题)
 
   - [1159:Maze](/article/noiOpenJudge-ch0205-1159)
