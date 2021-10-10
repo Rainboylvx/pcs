@@ -295,6 +295,7 @@ OJ地址: http://noi.openjudge.cn/
 
 - :white_check_mark: 2.2 基本算法之递归和自调用函数
   - [1696:逆波兰表达式](/article/noiOpenJudge-2.2-1696)
+  - [1751:分解因数](/article/noiOpenJudge-2.2-1751)
 - :construction: 2.5基本算法之搜索(36题)
 
   - [1159:Maze](/article/noiOpenJudge-ch0205-1159)
