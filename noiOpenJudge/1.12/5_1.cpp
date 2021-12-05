@@ -6,8 +6,8 @@ const int maxn = 1e6+5,maxe = 1e6+5; //点与边的数量
 
 int n,m;
 
-char word[10000+5];
-char s[10000+5];
+char word[10000000+5]; //注意这里很大
+char s[10000000+5];
 
 void to_lower(char c[],int len){
     // char c[] -- > char *c
@@ -28,7 +28,12 @@ bool isque(int i){
             return false;
         }
     }
-    return true;
+    //   s: abc xvc vec
+    //work:     xvc
+    //             ^ 这里是空格或末尾
+    if( s[i+len1] == ' ' || i+len1 == len2)
+        return true;
+    return false;
 }
 
 
