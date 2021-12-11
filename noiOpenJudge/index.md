@@ -296,6 +296,14 @@ OJ地址: http://noi.openjudge.cn/
 - :white_check_mark: 2.2 基本算法之递归和自调用函数
   - [1696:逆波兰表达式](/article/noiOpenJudge-2.2-1696)
   - [1751:分解因数](/article/noiOpenJudge-2.2-1751)
+  - [1750:全排列](/article/noiOpenJudge-ch0202-1750)
+  - [1751:分解因数](/article/noiOpenJudge-ch0202-1751)
+  - [1755:菲波那契数列](/article/noiOpenJudge-ch0202-1755)
+  - [3089:爬楼梯](/article/noiOpenJudge-ch0202-3089)
+  - [6261:汉诺塔问题](/article/noiOpenJudge-ch0202-6261)
+  - [666:放苹果](/article/noiOpenJudge-ch0202-666)
+  - [7592:求最大公约数问题](/article/noiOpenJudge-ch0202-7952)
+  - [8758:2的幂次方表示](/article/noiOpenJudge-ch0202-8758)
 - :construction: 2.5基本算法之搜索(36题)
 
   - [1159:Maze](/article/noiOpenJudge-ch0205-1159)

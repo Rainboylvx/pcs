@@ -1,3 +1,8 @@
+// 使用方式 下载 ch0202 里的所有代码
+//
+// mkdir 2.2
+// cd 2.2
+// node ../dowload.js ch0202
 const {execSync} = require("child_process")
 const cheerio = require("cheerio")
 const {checkPrime} = require("crypto")
@@ -9,7 +14,7 @@ const fs = require("fs")
  *@return {返回值类型} 返回值说明
  *@desc 根据目标对象获取运营商
  */
-var cookie = 'PHPSESSID=4ek7htni30j0kjj96pb7ndjgq3; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; Hm_lvt_cba6845c6d8176f123f81538e1796b8a=1621767342,1622372539,1622977167; Hm_lpvt_cba6845c6d8176f123f81538e1796b8a=1623811084'
+var cookie = 'PHPSESSID=n2oa0mm9tii0vnr4rpogqj5n5a; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; Hm_lvt_cba6845c6d8176f123f81538e1796b8a=1637993028; Hm_lpvt_cba6845c6d8176f123f81538e1796b8a=1639207931'
 var charter = ''
 function html(url) {
   console.log(`url: ${url}`)
