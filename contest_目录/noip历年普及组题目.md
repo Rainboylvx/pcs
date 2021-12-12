@@ -60,4 +60,16 @@ author: Rainboy
 
 ## noip2017
 
+
  - [棋盘](/article/luogu-P3956)
+
+## csp-j 2019
+
+- [数字游戏](/article/luogu-P5660)
+- [公交换乘](/article/luogu-P5661)
+- [纪念品](/article/luogu-P5662)
+
+## csp-j 2020
+
+- [4-方格取数](/article/luogu-P7074)
+

@@ -70,9 +70,16 @@ int main(){
     kahn();
     int i,j;
     for(i=1;i<=n;i++){
-        if( outdgree[i] == 0) out[++outc] = i;
+        if( outdgree[i] == 0)  {
+
+            out[++outc] = i;
+            for(int i=1;i<=n;++i){
+                //if( outdegree[i] == 0)
+                //std::cout << "out " << i  << " " << outdgree[i] << '\n';
+            }
+        }
     }
-    sort(out+1,out+outc+1);
+    sort(out+1,out+outc+1); // ?
 
     for(i=1;i<=tc;++i){
         int u = tSort[i];
