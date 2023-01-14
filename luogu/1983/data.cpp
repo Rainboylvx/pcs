@@ -17,6 +17,7 @@ struct Random {
 } rnd;
 
 int main(){
+
     Random N(3,5);
     Random N10(2,10);
     Random N5(1,5);

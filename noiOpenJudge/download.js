@@ -5,7 +5,7 @@
 // node ../dowload.js ch0202
 const {execSync} = require("child_process")
 const cheerio = require("cheerio")
-const {checkPrime} = require("crypto")
+//const {checkPrime} = require("crypto")
 const fs = require("fs")
 
 /**
@@ -14,7 +14,7 @@ const fs = require("fs")
  *@return {返回值类型} 返回值说明
  *@desc 根据目标对象获取运营商
  */
-var cookie = 'PHPSESSID=n2oa0mm9tii0vnr4rpogqj5n5a; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; Hm_lvt_cba6845c6d8176f123f81538e1796b8a=1637993028; Hm_lpvt_cba6845c6d8176f123f81538e1796b8a=1639207931'
+var cookie = 'PHPSESSID=aupj620hvaqmud4mba0u338c62; Hm_lvt_cba6845c6d8176f123f81538e1796b8a=1645257180,1645858358; SL_G_WPT_TO=zh-CN; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; Hm_lpvt_cba6845c6d8176f123f81538e1796b8a=1646538094'
 var charter = ''
 function html(url) {
   console.log(`url: ${url}`)
