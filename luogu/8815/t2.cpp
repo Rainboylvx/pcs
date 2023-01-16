@@ -57,7 +57,7 @@ int work(int pre_tree, char pre_opt)
     if (is_num(token))
     {
         int tree = get_tree_node();
-        tree_nodes[tree].c = token;
+        tree_nodes[tree].c = token; // 0 | 1
         if (!mytoken.has_next_token())
             return tree;
         char next_token = mytoken.next_token();
@@ -70,9 +70,13 @@ int work(int pre_tree, char pre_opt)
     else if (is_opt(token))
     {
         int tree = get_tree_node();
-        tree_nodes[tree].c = token;
+        tree_nodes[tree].c = token; 
         tree_nodes[tree].left = pre_tree;
         tree_nodes[tree].right = work(pre_tree, token);
+        
+        if( !mytoken.has_next_token())
+            return tree;
+
         int next_token = mytoken.next_token();
 
         //得到了括号内整个表达式
@@ -87,12 +91,13 @@ int work(int pre_tree, char pre_opt)
     }
     else if( token == '(') { // ( 括号
         int tree = work(-1, '('); //没有上一个表达式,没有左结合
+        if( !mytoken.has_next_token())
+            return tree;
         int next_token = mytoken.next_token();
         if (operator_priority(next_token) <= operator_priority(pre_opt))
             return tree;
         return work(tree, pre_opt);
     }
-
 }
 
 //创建一个树
