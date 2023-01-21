@@ -1,0 +1,54 @@
+# Token 仓库更新token
+token: MYTOKEN_PCS
+# 网站名
+site_name: pcs
+# 默认的网页头部图片
+default_cover: https://i.loli.net/2019/11/03/UruMi75xORInAdD.gif
+
+PORT: 4046
+
+Author:
+  name: Rainboy # 名字
+  link: https://rainboy.gitee.io/resume/    # 个人主页
+
+# 基础标题
+baseTitle: pcs
+# favicon
+favicon: /home/rainboy/mycode/pcs/static/favicon.ico
+
+# 默认的head 背景
+
+# === Book 的相关配置
+remoteRespository: https://github.com/Rainboylvx/pcs
+localRespository: /home/rainboy/mycode/RainboyDefault/pcs
+catalogueEnterPoints: SUMMARY.yml
+scanCatalogue: true
+scanAllRespository: true
+
+# === redis cache 配置
+redis:
+    addr: redis://localhost
+    opts: { db:3 }
+# 缓存时间
+cache_time: 1
+# === route table
+index_alias: '/list'    # 首页 alias
+route_disable: []
+
+# 控制目录的那些项目显示
+# 主页 目录 列表 标签云 历史记录 关于
+menu_disable: ['列表']
+
+extra_routes:
+    - 
+      name: list_match_by_tags # 代码模板生成
+      url: utils/list_match_by_tags
+      opts: {}  # 设置
+
+# ============ 用户定义 变量
+# =========== 用户定义 变量
+USER:
+    pcs_site: https://pcs.slimeoj.online/article/
+    rbook_site: https://rbook.slimeoj.online/article/
+    dsa_site: http://rainboy.coding.me/Data-Structure-Animation/
+    ROJ : http://moonoj.iok.la/

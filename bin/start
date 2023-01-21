@@ -1,0 +1,2 @@
+#/bin/bash
+DEBUG=debug /home/rainboy/mycode/rbookr/rbook/bin/rbook /home/rainboy/mycode/RainboyDefault/pcs/bin/pcs.config.yml
