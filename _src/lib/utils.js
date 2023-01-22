@@ -22,7 +22,8 @@ export const get_all_md = (dir = pcs__dirname)=>{
         cwd:dir,
         dot:true,
         nodir:true,
-        ignore:['node_modules/',
+        ignore:['node_modules/**/*',
+            'readme.md',
             '**/_*/**/*.md', //含有开头为_的目录
             ]
     })

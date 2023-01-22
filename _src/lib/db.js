@@ -4,8 +4,20 @@ import lokijs from "lokijs";
 export default class MyDb  {
 
     constructor(db_name="pcs.db") {
-        this.db = new lokijs('example')
+        this.db_name = db_name
+        this.db = new lokijs(this.db_name)
         this.articles = this.db.addCollection('articles',{indices:['_id']})
+    }
+
+
+    //重新 加入数据
+    reload(md_info_headers) {
+        this.articles.clear()
+        this.articles.insert(md_info_headers)
+    }
+    
+    insert(md_info_header) {
+        this.articles.insert(md_info_header)
     }
 
     //清空数据库
@@ -33,4 +45,5 @@ export default class MyDb  {
 
     }
 };
+
 
