@@ -1,4 +1,5 @@
 import lokijs from "lokijs";
+import Fuse from 'fuse.js'
 
 //数据库的封装
 export default class MyDb  {
@@ -37,8 +38,9 @@ export default class MyDb  {
 
     //fzf find
     fzf_find(str) {
-        this.articles.chain().where(({_id,title}) => {
-        })
+        console.log( 
+            this.articles.chain().data()
+        )
     }
 
     filter_by_tag(tagNames) {

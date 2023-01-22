@@ -5,12 +5,6 @@
 
 <myNav> </myNav>
 <router-view></router-view>
-
-{{mainStore.loading}}
-{{mainStore.count}}
-<button @click="xxx">
-123
-</button>
 </template>
 
 <script lang="ts" setup>

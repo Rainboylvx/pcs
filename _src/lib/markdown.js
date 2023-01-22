@@ -7,12 +7,15 @@ import GrayMatter from 'gray-matter'
 import * as Path from 'path'
 import {pcs__dirname} from './utils.js'
 import * as ejs from 'ejs';
+
 import anchor from "markdown-it-anchor";
 import kbdplugin from "markdown-it-kbd";
 import attrs from "markdown-it-attrs";
 import emoji from 'markdown-it-emoji';
 import toc from "markdown-it-toc-done-right";
 import mathjax3 from "markdown-it-mathjax3";
+
+import {ensureDirSync} from 'fs-extra'
 import crypto from 'crypto'
 
 
@@ -20,8 +23,9 @@ import crypto from 'crypto'
 
 export default class _markdown {
 
-    constructor(root_dir  = pcs__dirname,markdown_opts = {}) {
+    constructor(ejs_data = {},root_dir  = pcs__dirname,markdown_opts = {}) {
         this.root_dir = root_dir
+        this.ejs_data = ejs_data || {}
 
         //构建 markdown
         this._md = MarkdownIt(Object.assign({ html: true, linkify: true }, markdown_opts));
@@ -56,22 +60,28 @@ export default class _markdown {
         if(!Path.isAbsolute(md_file_path))
             real_path = Path.join(this.root_dir,md_file_path)
 
-        console.log('->',real_path )
-        return ejs.render(
-                readFileSync(real_path, { encoding: 'utf8' }),
-                {}, // data TODO
+        let raw = readFileSync(real_path, { encoding: 'utf8' })
+        try {
+            return ejs.render(
+                raw,
+                this.ejs_data, // data TODO
                 //options
                 { filename: real_path}
-        );
+            );
+        }
+        catch(e) {
+            console.error(e)
+            return raw
+        }
     }
 
 
     // 对给定的string 渲染出来带有yaml_header的md渲染后html数据
     md_render_with_yamlheader (md_text) {
-        const yamlLoad = yamlFront.safeLoadFront(md_text);
-        const md_html = this._md.render(yamlLoad.__content);
+        const yamlLoad = GrayMatter(md_text);
+        const md_html = this._md.render(yamlLoad.content);
         return {
-            ...yamlLoad,
+            header: yamlLoad.data || {},
             __content:md_html
         }
     };
@@ -126,10 +136,36 @@ export default class _markdown {
     //    oj: {ojname,link}[]
     //    tags: string[]
     //    catalog: string
-    //   __content: md_html
+    //    data:{
+    //    }
+    //   content: md_html
     //}
     __Render = (md_file_path) => {
-        return md_render_with_yamlheader(ejs_render(md_file_path))
+        return this.md_render_with_yamlheader(this.ejs_render(md_file_path))
+    }
+ 
+/** 
+ * 把对应的md文件渲染到指定的目录下的json文件
+ * src: 原md 文件路径
+ * dst: 输出的json文件路径
+* */
+    render_to_json_file (src,dst='dist'){
+        if( Path.extname(src).toLowerCase() !== '.md' )
+            return
+
+        dst = Path.join(dst,Path.dirname(src),Path.basename(src).replace('.md', '.json'))
+
+        //1.保证路径的存在
+        ensureDirSync(Path.dirname(dst))
+        
+        console.log('org->', src )
+        console.log('_.', dst )
+        console.log('_.', Path.dirname(dst) )
+
+        let md_html_with_yamlheader =  this.__Render(src)
+        //2.写入
+        writeFileSync(dst,JSON.stringify(md_html_with_yamlheader),{encoding:'utf8'})
+
     }
 };
 

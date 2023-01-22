@@ -1,0 +1,12 @@
+
+.search_result_list {
+    min-width:500px;
+    ul {
+        list-style: none;
+        li {
+            display: flex;
+            flex-direction: column;
+            padding: 0.5rem;
+        }
+    }
+}
