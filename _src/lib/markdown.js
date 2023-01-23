@@ -1,5 +1,5 @@
 //markdown 渲染
-import MarkdownIt from "markdown-it";
+import  markdown  from "markdown-r";
 //[javascript - How to resolve Node.js ES6 (ESM) Modules with the TypeScript Compiler (TSC). TSC doesn't emit the correct file-ext - Stack Overflow](https://stackoverflow.com/questions/44979976/how-to-resolve-node-js-es6-esm-modules-with-the-typescript-compiler-tsc-tsc)
 import { readFileSync, writeFileSync } from 'fs';
 import yamlFront from "yaml-front-matter";
@@ -8,16 +8,8 @@ import * as Path from 'path'
 import {pcs__dirname} from './utils.js'
 import * as ejs from 'ejs';
 
-import anchor from "markdown-it-anchor";
-import kbdplugin from "markdown-it-kbd";
-import attrs from "markdown-it-attrs";
-import emoji from 'markdown-it-emoji';
-import toc from "markdown-it-toc-done-right";
-import mathjax3 from "markdown-it-mathjax3";
-
 import {ensureDirSync} from 'fs-extra'
 import crypto from 'crypto'
-
 
 //封装成一个Markdown class
 
@@ -28,13 +20,12 @@ export default class _markdown {
         this.ejs_data = ejs_data || {}
 
         //构建 markdown
-        this._md = MarkdownIt(Object.assign({ html: true, linkify: true }, markdown_opts));
-        this._md.use(anchor, {})
-            .use(attrs)
-            .use(toc, { level: [2, 3] })
-            .use(emoji)
-            .use(kbdplugin)
-            .use(mathjax3);
+        // this._md = MarkdownIt(Object.assign({ html: true, linkify: true }, markdown_opts));
+        this._md = markdown
+
+        // this._md.use((md)=> md.renderer.rules.link_open = this.link_open )
+        this._md.renderer.rules.link_open = (...args) => this.link_open(...args);
+
     }
 
 
@@ -91,6 +82,15 @@ export default class _markdown {
         return crypto.createHash('md5').update(__path__).digest('hex');
     }
 
+    //
+
+    //给一个md文件的路径,得到这个md文件的id
+    get_md_id(md_path) {
+        let id = this.only_get_yaml_header(md_path)._id ;
+        if( id ) return id
+        throw('can not get md file _id')
+    }
+
     //{
     //  _id: 'aoj-2843',
     //  title: '括号序列',
@@ -143,6 +143,7 @@ export default class _markdown {
     __Render = (md_file_path) => {
         return this.md_render_with_yamlheader(this.ejs_render(md_file_path))
     }
+
  
 /** 
  * 把对应的md文件渲染到指定的目录下的json文件
@@ -166,6 +167,40 @@ export default class _markdown {
         //2.写入
         writeFileSync(dst,JSON.stringify(md_html_with_yamlheader),{encoding:'utf8'})
 
+    }
+
+
+    ///>>>>>>>>>> md hook
+    
+    link_open (tokens,i,options,env,self)
+    {
+        let token = tokens[i]
+        let href = undefined
+        token.attrs.forEach( ([attr,val])=>{
+            if( attr.toLowerCase() == 'href')
+                href = val
+        })
+
+        // console.log( token )
+        // console.log( self.renderer)
+        // console.log( options )
+        // console.log( env)
+        //不是绝对路径
+        if( href && Path.extname(href).toLowerCase() == '.md' && !Path.isAbsolute(href) ) {
+            let real_path = Path.resolve(Path.dirname(env.filename),href)
+            let id = this.get_md_id(decodeURI( real_path) )
+            for( let j = 0 ;j< tokens[i].attrs.length ; j++)
+            {
+                if(tokens[i].attrs[j][0] == 'href'){
+                    tokens[i].attrs[j][1] = `/article/${id}`
+                    // console.log( tokens[i] )
+                    break
+                }
+            }
+            // console.log( tokens[i] )
+        }
+
+        return self.renderToken(tokens,i,options,env)
     }
 };
 
