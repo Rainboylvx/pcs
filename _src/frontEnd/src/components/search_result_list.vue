@@ -8,16 +8,7 @@
                 </router-link>
             </div>
             <div style="display:flex; justify-content: space-between; " class="text-sm">
-                <div class="flex gap-x-1 items-center">
-                    <tagLogo />
-                    <span v-for="(tag,idx) in item.tags || []" v-bind:key="`tag-${idx}`"
-                        class="bg-green-500 text-white p-1 rounded
-                        cursor-pointer
-                        "
-                    >
-                        {{tag}}
-                    </span>
-                </div>
+                <Tag :tags="item.tags" />
                 <div class="flex gap-x-1 items-center">
                     <linkLogo />
                     <a v-for="({oj,url},idx) in item.source || []" v-bind:key="`tag-${idx}`"
@@ -37,8 +28,8 @@
 </template>
 
 <script lang="ts" setup>
-import tagLogo from '../icon/tag.svg'
-import linkLogo from '../icon/link.svg'
+import linkLogo from '@/icon/link.svg'
+import Tag from './tag.vue'
 
 const props = defineProps({
         dataList:Array

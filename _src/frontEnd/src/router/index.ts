@@ -37,7 +37,6 @@ const router = createRouter({
 })
 
 router.beforeEach( (to,from)=> {
-    console.log(to)
     if(to.name === 'Article') {
         let article_info = my_db.findOne_by_id(to.params.id)
         console.log( article_info )

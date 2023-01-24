@@ -35,11 +35,18 @@ for( let md of mds) {
     mymd.render_to_json_file(md,outDir)
 }
 
+info_headers.sort(({update: u1},{update: u2}) => u1 < u2 ? 1 : -1 )
+
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(),svgLoader(),MyVirtualBlogDataPlugin(info_headers)],
   root:resolve(__dirname, '_src/frontEnd'),
+  resolve:{
+    alias:{
+      '@' : resolve(__dirname, './_src/frontEnd/src')
+    },
+  },
   build: {
       rollupOptions: {
           input: {

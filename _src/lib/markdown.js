@@ -67,15 +67,6 @@ export default class _markdown {
     }
 
 
-    // 对给定的string 渲染出来带有yaml_header的md渲染后html数据
-    md_render_with_yamlheader (md_text) {
-        const yamlLoad = GrayMatter(md_text);
-        const md_html = this._md.render(yamlLoad.content);
-        return {
-            header: yamlLoad.data || {},
-            __content:md_html
-        }
-    };
 
 
     path_to_id(__path__) {
@@ -91,6 +82,50 @@ export default class _markdown {
         throw('can not get md file _id')
     }
 
+    //预先 渲染
+    __pre_render(md_file_path) {
+        let raw_md = ""
+        try {
+            raw_md = this.ejs_render(md_file_path)
+        }
+        catch(e){ // ejs 渲染错误
+            return {
+                data:{
+                    _id: this.path_to_id(md_file_path),
+                    title : Path.basename(md_file_path),
+                    orign_path:md_file_path
+                },
+                error : true,
+                content: `${e}`
+            }
+        }
+
+        let Matter = GrayMatter(raw_md)
+        if( Matter.isEmpty ) // 没有yaml 头
+            Matter = {
+                data:{ 
+                    title : Path.basename(md_file_path)
+                }
+            }
+
+        if( !Matter.data._id) //没有_id
+            Matter.data._id = this.path_to_id(md_file_path),
+
+        Matter.data.path = md_file_path
+        // console.log('->>', md_file_path)
+        // console.log('->>', Matter.data.path )
+        // todo
+        let a = {
+            content:Matter.content,
+            data : {
+                ...Matter.data,
+                orign_path:md_file_path
+            }
+        }
+        // console.log( a )
+        return a;
+    }
+
     //{
     //  _id: 'aoj-2843',
     //  title: '括号序列',
@@ -103,46 +138,19 @@ export default class _markdown {
     //    { oj: 'AOJ', url: 'https://acm.webturing.com/problem.php?id=2843' }
     //  ],
     only_get_yaml_header = (md_file_path) =>{
-        let raw_md = ""
-        try {
-            raw_md = this.ejs_render(md_file_path)
-        }
-        catch(e){
-            return {
-                _id: this.path_to_id(md_file_path),
-                title : Path.basename(md_file_path),
-                error : `${e}`
-            }
-        }
-
-        let header = GrayMatter(raw_md)
-        if( header.isEmpty )
-            header = {
-                data:{ 
-                    _id: this.path_to_id(md_file_path),
-                    title : Path.basename(md_file_path)
-                }
-            }
-
-        header.data.orign_path = md_file_path
-        // todo
-        return header.data
+        return this.__pre_render(md_file_path).data
     }
 
-    //对md文件路径进行 渲染,结果为
-    //{
-    //    [key:string] :any
-    //    title:
-    //    oj: {ojname,link}[]
-    //    tags: string[]
-    //    catalog: string
-    //    data:{
-    //    }
-    //   content: md_html
-    //}
-    __Render = (md_file_path) => {
-        return this.md_render_with_yamlheader(this.ejs_render(md_file_path))
-    }
+    // 对给定的string 渲染出来带有yaml_header的md渲染后html数据
+    md_render_with_yamlheader (md_file_path) {
+        let Matter = this.__pre_render(md_file_path)
+        console.log( Matter.data )
+
+        return {
+            header: Matter.data,
+            __content: Matter.error ? Matter.content  : this._md.render(Matter.content)
+        }
+    };
 
  
 /** 
@@ -163,7 +171,7 @@ export default class _markdown {
         console.log('_.', dst )
         console.log('_.', Path.dirname(dst) )
 
-        let md_html_with_yamlheader =  this.__Render(src)
+        let md_html_with_yamlheader =  this.md_render_with_yamlheader(src)
         //2.写入
         writeFileSync(dst,JSON.stringify(md_html_with_yamlheader),{encoding:'utf8'})
 
