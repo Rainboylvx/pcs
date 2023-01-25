@@ -4,8 +4,12 @@ import { RouteRecordRaw } from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Article from '../views/Article.vue'
+import Collection from '@/views/collection.vue'
+import tagCloud from '@/views/tag_cloud.vue'
+
 import {useMainStore} from '../stores/main.store'
 import { get_artilce } from '../axios'
+
 
 import my_db from '../loki_db'
 import {header} from 'express/lib/request'
@@ -25,6 +29,16 @@ const routes: Array<RouteRecordRaw> = [
     name:'Article'
   },
   {
+    path:'/collection/',
+    component:Collection,
+    name:'Collection'
+  },
+  {
+    path:'/tags/',
+    component:tagCloud,
+    name:'Tags'
+  },
+  {
     path: '/about',
     component: About,
   },
@@ -37,6 +51,13 @@ const router = createRouter({
 })
 
 router.beforeEach( (to,from)=> {
+    // if( to.fullPath.indexOf('#') !== -1) {
+    //     if ( to.fullPath.split('#')[0] == from.fullPath.split('#')[0]) {
+    //         return false
+    //     }
+    // }
+    console.log( from )
+    console.log( to )
     if(to.name === 'Article') {
         let article_info = my_db.findOne_by_id(to.params.id)
         console.log( article_info )

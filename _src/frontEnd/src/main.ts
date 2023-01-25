@@ -1,8 +1,10 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
+import '@/assets/github-markdown.css'
 import '../../../node_modules/markdown-r/assets/markdown-r.scss'
 import '../../../node_modules/markdown-r/assets/prism-theme/prism-tomorrow.css'
+
 
 import App from './App.vue'
 import router from './router'

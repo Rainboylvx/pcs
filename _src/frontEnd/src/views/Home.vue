@@ -1,11 +1,6 @@
 <template>
 <div class="home-container">
     <div class="search_container items-center justify-content-center">
-        <div class="flex gap-2 mb-3">
-            <router-link to="/" class="rounded-sm bg-gray-100 py-1 px-4 border hover:bg-gray-100 hover:border-gray-400 shadow" >标签云</router-link>
-            <router-link to="/" class="rounded-sm bg-gray-100 py-1 px-4 border hover:bg-gray-100 hover:border-gray-400 shadow">题单</router-link>
-            <router-link to="/" class="rounded-sm bg-gray-100 py-1 px-4 border hover:bg-gray-100 hover:border-gray-400 shadow">关于</router-link>
-        </div>
         <div class="search_box">
             <div class="search_input">
                 <input type="text" v-model="search_string" @input="search"/>
@@ -13,11 +8,13 @@
             <button @click="search"> <SearchLog/> </button>
         </div>
         <div v-show="search_string && search_string.length">
+            <h3> 搜索结果 </h3>
             <searchResultList :dataList="search_list" />
         </div>
-        <!-- <div v-show="!search_string || search_string.length == 0"> -->
+        <div v-show="!search_string || search_string.length == 0">
+            <h3> 最新更新 </h3>
             <searchResultList :dataList="last_blog_data" />
-        <!-- </div> -->
+        </div>
     </div>
 </div>
 </template>
@@ -57,7 +54,6 @@ const search = debounce( ()=>{
 <style lang="scss" scoped>
 
 .home-container {
-    min-height: 100vh;
     display: grid;
     place-items: center;
 }

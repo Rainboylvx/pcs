@@ -13,3 +13,10 @@ html,body {
     padding: 0;
     margin: 0;
 }
+
+#app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

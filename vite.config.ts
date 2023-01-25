@@ -9,6 +9,8 @@ import { get_all_md } from './_src/lib/utils.js'
 import markdown from './_src/lib/markdown.js'
 import {emptyDirSync} from 'fs-extra'
 
+import MyMarkdownRender from './_src/frontEnd/src/virtualMarkdownRender'
+
 const ejs_data  = {
     USER : {
         ROJ:'https://roj.ac.cn'
@@ -40,7 +42,7 @@ info_headers.sort(({update: u1},{update: u2}) => u1 < u2 ? 1 : -1 )
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(),svgLoader(),MyVirtualBlogDataPlugin(info_headers)],
+  plugins: [vue(),svgLoader(),MyVirtualBlogDataPlugin(info_headers),MyMarkdownRender()],
   root:resolve(__dirname, '_src/frontEnd'),
   resolve:{
     alias:{
@@ -56,7 +58,8 @@ export default defineConfig({
   },
   server :{
       proxy : {
-          '^.*\.md' : {
+          //除 virtual-markdown-render 的所有字符
+          '^((?!virtual-markdown-render).)*\.md' : {
               target: 'http://127.0.0.1:8080/',
               changeOrigin: true,
               rewrite: (path) => join(outDir,path.replace('.md', '.json')),

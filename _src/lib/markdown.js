@@ -36,6 +36,11 @@ export default class _markdown {
         return readFileSync(real_path, { encoding: 'utf8' })
     }
 
+    //得到真正的md文件的位置
+    md_real_path(md_file_path) {
+        return Path.resolve(pcs__dirname,decodeURI(md_file_path))
+    }
+
     //得到原始的头文件
     get_raw_header (str) {
         let parsed = GrayMatter(str)
@@ -65,9 +70,6 @@ export default class _markdown {
             return raw
         }
     }
-
-
-
 
     path_to_id(__path__) {
         return crypto.createHash('md5').update(__path__).digest('hex');
@@ -144,11 +146,13 @@ export default class _markdown {
     // 对给定的string 渲染出来带有yaml_header的md渲染后html数据
     md_render_with_yamlheader (md_file_path) {
         let Matter = this.__pre_render(md_file_path)
-        console.log( Matter.data )
+        // console.log( Matter.data )
 
         return {
             header: Matter.data,
-            __content: Matter.error ? Matter.content  : this._md.render(Matter.content)
+            __content: Matter.error 
+                ? Matter.content  
+                : this._md.render(Matter.content,{filename: this.md_real_path(md_file_path) })
         }
     };
 
@@ -169,7 +173,7 @@ export default class _markdown {
         
         console.log('org->', src )
         console.log('_.', dst )
-        console.log('_.', Path.dirname(dst) )
+        // console.log('_.', Path.dirname(dst) )
 
         let md_html_with_yamlheader =  this.md_render_with_yamlheader(src)
         //2.写入

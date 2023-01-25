@@ -1,5 +1,6 @@
 import lokijs from "lokijs";
 import Fuse from 'fuse.js'
+import Path from 'path'
 
 //数据库的封装
 export default class MyDb  {
@@ -29,6 +30,7 @@ export default class MyDb  {
     insert(article_object) {
         this.articles.insert(article_object)
     }
+
 
     //查找
     findOne_by_id(_id) {

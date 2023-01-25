@@ -5,8 +5,6 @@
     </h3>
     <Tag :tags="mainStore.info_header.tags || []" />
 
-
-
     <div>
     </div>
     <div class="lg:w-[52rem] md:w-full mx-auto markdown-body" v-html="mainStore.article">

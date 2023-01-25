@@ -10,5 +10,6 @@ const myMd = new Md()
 
 
 
-let a = myMd._md.render('[h1](../../luogu/1000/P1000_超级玛丽游戏.md)',{filename:utils__filename})
+//let a = myMd._md.render('[h1](../../luogu/1000/P1000_超级玛丽游戏.md)',{filename:utils__filename})
+let a = myMd.md_render_with_yamlheader('/home/rainboy/mycode/RainboyDefault/pcs/_题解篇/_index.md')
 console.log( a )
