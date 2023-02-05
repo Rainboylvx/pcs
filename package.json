@@ -9,7 +9,7 @@
   "type": "module",
   "scripts": {
     "start": "PORT=3333 node ./_src/express/bin/www.js",
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vue-tsc --noEmit && vite build",
     "gen_data_json": "",
     "serve": "vite preview"
