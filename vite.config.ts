@@ -24,7 +24,7 @@ let mds = get_all_md()
 
 let info_headers = []
 
-const outDir = 'dist'
+const outDir = 'json'
 emptyDirSync(outDir)
 
 for( let md of mds) {
@@ -54,7 +54,8 @@ export default defineConfig({
           input: {
               main: resolve(__dirname, '_src/frontEnd/index.html'),
           }
-      }
+      },
+      outDir: resolve(__dirname,'dist')
   },
   server :{
       proxy : {
