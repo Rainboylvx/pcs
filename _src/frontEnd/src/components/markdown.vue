@@ -1,5 +1,5 @@
 <template>
-    <h3 class="text-center text-2xl py-5">
+    <h3 class="text-center text-2xl py-5 dark:text-gray-400">
         {{props.header.title || '未知'}}
     </h3>
     <Tag :tags="header.tags || []" />

@@ -12,7 +12,7 @@
             <searchResultList :dataList="search_list" />
         </div>
         <div v-show="!search_string || search_string.length == 0">
-            <h3> 最新更新 </h3>
+            <h3 class="dark:text-gray-100"> 最新更新 </h3>
             <searchResultList :dataList="last_blog_data" />
         </div>
     </div>

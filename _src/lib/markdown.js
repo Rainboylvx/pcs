@@ -171,8 +171,8 @@ export default class _markdown {
         //1.保证路径的存在
         ensureDirSync(Path.dirname(dst))
         
-        console.log('org->', src )
-        console.log('_.', dst )
+        // console.log('org->', src )
+        // console.log('_.', dst )
         // console.log('_.', Path.dirname(dst) )
 
         let md_html_with_yamlheader =  this.md_render_with_yamlheader(src)

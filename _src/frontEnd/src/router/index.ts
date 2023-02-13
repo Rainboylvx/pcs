@@ -17,10 +17,6 @@ import {header} from 'express/lib/request'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    redirect: '/home',
-  },
-  {
-    path: '/home',
     component: Home,
   },
   {

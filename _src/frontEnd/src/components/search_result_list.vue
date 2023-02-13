@@ -3,14 +3,14 @@
     <ul class="border mt-2 divide-y">
         <li v-for="({item},idx) in props.dataList" v-bind:key="idx">
             <div class="text-lg py-3">
-                <router-link :to="`/article/${item._id}`" class="hover:text-blue-600">
+                <router-link :to="`/article/${item._id}`" class="hover:text-blue-600 dark:text-gray-100">
                     {{item.title}}
                 </router-link>
             </div>
             <div style="display:flex; justify-content: space-between; " class="text-sm">
                 <Tag :tags="item.tags" />
                 <div class="flex gap-x-1 items-center">
-                    <linkLogo />
+                    <linkLogo class="dark:text-indigo-500" />
                     <a v-for="({oj,url},idx) in item.source || []" v-bind:key="`tag-${idx}`"
                         class="hover:underline decoration-1 text-blue-500
                         hover:text-blue-700

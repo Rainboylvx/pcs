@@ -11,12 +11,15 @@ import {emptyDirSync} from 'fs-extra'
 
 import MyMarkdownRender from './_src/frontEnd/src/virtualMarkdownRender'
 
+
+//渲染时需要的数据
 const ejs_data  = {
     USER : {
         ROJ:'https://roj.ac.cn'
     }
 }
 
+//---> 搜索得到数据
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 const mymd = new markdown(ejs_data)
 
@@ -30,14 +33,19 @@ emptyDirSync(outDir)
 for( let md of mds) {
     // console.log( __Render(Path.join(pcs__dirname,md)) )
     // mymd.get_raw_header( mymd.get_raw_orgin(md) )
+
+    //得到文件的头信息
     let info_header =  mymd.only_get_yaml_header(md)
+
+    //保存文件的头信息
     info_headers.push(info_header)
 
     //把这个md的路径,转换成json文件
     mymd.render_to_json_file(md,outDir)
 }
-
+    //能过时间来排序
 info_headers.sort(({update: u1},{update: u2}) => u1 < u2 ? 1 : -1 )
+//<---- 搜索得到数据
 
 
 // https://vitejs.dev/config/

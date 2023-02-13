@@ -4,6 +4,9 @@
 //[Plugin API | Vite](https://vitejs.dev/guide/api-plugin.html#virtual-modules-convention)
 //-- 来自
 //[Vite 虚拟模块不完全指北 - 掘金](https://juejin.cn/post/7128401663152357407)
+//
+// 使用 在相应的*.vue文件里 使用
+// import renderdeMd from "virtual-markdown-renderdeMd:path/to/markdown.md";
 import Path from 'path'
 import File from 'fs'
 import {pcs__dirname} from '../../lib/utils.js'

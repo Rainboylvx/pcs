@@ -16,7 +16,7 @@ const tag_cloud = (_data:any[])=>{
             cloud[tag]++;
         }
     }
-    console.log( 'cloud->',cloud )
+    // console.log( 'cloud->',cloud )
     return cloud
 }
 
