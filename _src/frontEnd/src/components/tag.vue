@@ -1,5 +1,5 @@
 <template>
-<div class="flex gap-x-1 items-center">
+<div class="flex gap-x-1 items-center justify-center">
     <tagLogo class="dark:text-indigo-500"/>
     <span v-for="(tag,idx) in tags || []" v-bind:key="`tag-${idx}`"
         class="bg-green-500 text-white p-1 rounded
