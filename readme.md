@@ -7,6 +7,15 @@ author: Rainboy
 comment: "说明"
 ---
 
+## 如何使用本仓库 
+
+1. clone 本仓库`git clone --depth 1 https://github.com/Rainboylvx/pcs.git`
+2. `cd pcs`
+3. 下载`yarn install`
+  - 可以还要下载`git clone https://github.com/rbookr/markdown-r`(这个链接可能有错误)
+  - `yarn link markdown-r`
+3. 预览`yarn dev`
+4. 编译`yarn build`
 
 ## 分析
 
