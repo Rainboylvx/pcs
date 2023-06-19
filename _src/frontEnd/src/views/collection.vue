@@ -4,6 +4,6 @@
 
 <script lang="ts" setup>
 //import md_collection from 'virtual-markdown-render:_题解篇/_index.md'
-import md_collection from 'virtual-markdown-render:_题解篇/_index.md'
+import md_collection from 'virtual-markdown-render:题解篇/_index.md'
 import markdown from '@/components/markdown.vue'
 </script>

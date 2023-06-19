@@ -7,6 +7,12 @@ author: Rainboy
 comment: "说明"
 ---
 
+## 这是什么?
+
+这里存储的是[Rainboy](https://github.com/Rainboylvx)写的相关OJ(online judge)网站上的题目,仓库位于
+[github:Rainboylvx/pcs](https://github.com/Rainboylvx/pcs)
+
+
 ## 如何使用本仓库 
 
 1. clone 本仓库`git clone --depth 1 https://github.com/Rainboylvx/pcs.git`

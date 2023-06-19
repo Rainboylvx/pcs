@@ -75,6 +75,10 @@ export default defineConfig({
               //rewrite: (p:string) => join(outDir,p.replace('.md', '.json'))
               //rewrite: (p:string) => {return '1.json'}
           }
+        // '*\.md$':
+        //     {
+        //       rewrite: (path) => join(outDir,path.replace('.md', '.json')),
+        //     }
       }
   }
   // server : {
