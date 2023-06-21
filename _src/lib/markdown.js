@@ -23,8 +23,12 @@ export default class _markdown {
         // this._md = MarkdownIt(Object.assign({ html: true, linkify: true }, markdown_opts));
         this._md = markdown
 
+
         // this._md.use((md)=> md.renderer.rules.link_open = this.link_open )
         this._md.renderer.rules.link_open = (...args) => this.link_open(...args);
+
+        //解析 image hooks
+        this._md.renderer.rules.image = (...args) => this.image_render(...args);
 
     }
 
@@ -178,6 +182,33 @@ export default class _markdown {
         let md_html_with_yamlheader =  this.md_render_with_yamlheader(src)
         //2.写入
         writeFileSync(dst,JSON.stringify(md_html_with_yamlheader),{encoding:'utf8'})
+
+    }
+
+    ///>>>>>>>>>> image hook
+    image_render(tokens,i,options,env,slf)
+    {
+
+        var token = tokens[i];
+
+        // "alt" attr MUST be set, even if empty. Because it's mandatory and
+        // should be placed on proper position for tests.
+        //
+        // Replace content with actual value
+
+        token.attrs[token.attrIndex('alt')][1] =
+            slf.renderInlineAsText(token.children, options, env);
+
+        //检查token的src 属性
+        let src = token.attrs[token.attrIndex('src')][1]
+        if( src && src.length >= 2 && src.slice(0,2) == './') {
+            token.attrs[token.attrIndex('src')][1]
+                = Path.join('/',
+                    Path.relative( this.root_dir,Path.dirname(env.filename)),
+                    src.slice(2))
+        }
+
+        return slf.renderToken(tokens, i, options);
 
     }
 
