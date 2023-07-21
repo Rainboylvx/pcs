@@ -8,7 +8,8 @@
 import { ref } from 'vue'
 
 import markdown from '@/components/markdown.vue'
-import readme from 'virtual-markdown-render:readme.md'
+//import readme from 'virtual-markdown-render:readme.md'
+import readme from '../../../../json/readme.json'
 
 </script>
 

@@ -70,7 +70,7 @@ bool dfs()
         top -- ;
     }
     resume(p);
-    return false;
+    return false; // 遇到了一个空的列
 }
 
 int main()

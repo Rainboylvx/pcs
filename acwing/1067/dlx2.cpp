@@ -190,27 +190,28 @@ void resume(struct DLX_NODE* pToResume)
 
 void remove(struct DLX_NODE* pToRemove)
 {
-    if (pToRemove->right != NULL) { pToRemove->right->left = pToRemove->left; }
-    pToRemove->left->right = pToRemove->right;
+    if (pToRemove->right != NULL) { pToRemove->right->left = pToRemove->left; } // <-[]->
+
+    pToRemove->left->right = pToRemove->right;// <-[]->
 
     struct DLX_NODE* pdown = pToRemove->down;
     while (pdown != NULL) {
-        int row = pdown->row;
+        int row = pdown->row; // 这一行,行数
         assert(row != -1);
-        struct DLX_NODE* nextRemove = &table[row][0];
+        struct DLX_NODE* nextRemove = &table[row][0]; // 取得这一行的头
         while (nextRemove != NULL) {
             if(nextRemove->col != 0)
-                table[0][nextRemove->col].count--;
+                table[0][nextRemove->col].count--;// 列头 count--
             assert(table[0][nextRemove->col].count >= 0);
-            if (nextRemove->col == pToRemove->col) {
-                nextRemove = nextRemove->right;
-                continue;
+            if (nextRemove->col == pToRemove->col) { // 是同一列
+                nextRemove = nextRemove->right; // 下一列
+                continue;// 跳过下面
             }
             if (nextRemove->down != NULL) nextRemove->down->up = nextRemove->up;
-            nextRemove->up->down = nextRemove->down;
+            nextRemove->up->down = nextRemove->down;// 这个点 <-上下->
             nextRemove = nextRemove->right;
         }
-        pdown = pdown->down;
+        pdown = pdown->down; // 再下一行
     }
 }
 
@@ -232,25 +233,25 @@ bool dfs()
 
     remove(selectP); //删除这一列
     {
-        p = selectP->down;
+        p = selectP->down; // 向下找
         while (p != NULL) {
-            ans.push_back(p->row);
-            struct DLX_NODE* tmp = table[p->row][0].right;
-            while (tmp != NULL) {
-                if(tmp->col != selectP->col)
-                    remove(&table[0][tmp->col]);
+            ans.push_back(p->row); //存 选一行
+            struct DLX_NODE* tmp = table[p->row][0].right; // tmp 是这一行的开头
+            while (tmp != NULL) { // 这一行不空
+                if(tmp->col != selectP->col) // 这个列,都
+                    remove(&table[0][tmp->col]); //还有删除
                 tmp = tmp->right;
             }
-            if (dfs()) return true;
+            if (dfs()) return true; // 删除空了就成功了
 
-            tmp = table[p->row][0].right;
+            tmp = table[p->row][0].right; // 恢复现场
             while (tmp != NULL) {
                 if (tmp->col != selectP->col)
-                    resume(&table[0][tmp->col]);
+                    resume(&table[0][tmp->col]); // 还有恢复
                 tmp = tmp->right;
             }
-            ans.pop_back();
-            p = p->down;
+            ans.pop_back();// 退出栈内的答案,
+            p = p->down; // 选下一行
         }
     }
 

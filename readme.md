@@ -23,18 +23,7 @@ comment: "说明"
 3. 预览`yarn dev`
 4. 编译`yarn build`
 
-## 分析
-
-## 代码
-
-```c
-<%- include("1.cpp") _%>
-```
-
-## 说明
-
-
-**作者:**
+## **作者:**
 
 ![](https://github.com/rainboylvx.png)
 

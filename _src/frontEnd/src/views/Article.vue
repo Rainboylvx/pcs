@@ -10,4 +10,4 @@ import markdown from '../components/markdown.vue'
 import Tag from '@/components/tag.vue'
 
 const mainStore = useMainStore()
-    </script>
+</script>

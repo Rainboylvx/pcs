@@ -1,22 +1,22 @@
-def f(n,p):
-    s = 1
-    base = 2
-    while p:
-        if p & 1:
-            s = s *base
-        base = base *base
-        p = p >>1
-    return s
+#!/bin/env python3
+import math
+a = int(input())
+wei = a * math.log10(2)
+print(math.ceil(wei))
+ans = pow(2,a)-1
+idx = 1
+num_500 = []
 
-def cutText(text, sec):
-    return [text[i:i+sec] for i in range(0,len(text),sec)]
+while idx <= 500 or ans != 0:
+    num_500.append(ans % 10)
+    ans = ans // 10
+    idx+=1
 
-p = int(input())
-s = str(f(2,p)-1)
-print(len(s))
-if len(s) > 500 :
-    s = s[:500]
-else:
-    s = '0'*(500-len(s)) + s
-print( '\n'.join(cutText(s,50)))
+while len(num_500) < 500:
+    num_500.append(0)
 
+ls = list(reversed(num_500))
+for i in range(500):
+    print(ls[i],end='')
+    if (i+1) % 50 == 0:
+        print()

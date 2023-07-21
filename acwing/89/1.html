@@ -1,0 +1,971 @@
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>89. a^b - AcWing题库</title>
+    
+
+<meta charset="UTF-8">
+<meta name="keywords" content="《算法竞赛进阶指南》，a^b，AcWing题库"/>
+<meta name="description" content="高质量的算法题库"/>
+<meta name="baidu-site-verification" content="UW1SBiMHO7" />
+<meta name="google-site-verification" content="YTgbOq_0TDShJS6KTcUYCQoAAZTm308SJ7ibsafBD_Y" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" type="image/png" href="https://cdn.acwing.com/static/web/img/favicon.ico"/>
+<link rel="stylesheet" href="https://cdn.acwing.com/static/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.acwing.com/static/web/node_modules/bootstrap-toggle/css/bootstrap-toggle.min.css">
+<link rel="stylesheet" href="https://cdn.acwing.com/static/web/css/signform.css">
+<link rel="stylesheet" href="https://cdn.acwing.com/static/jquery-ui-dist/jquery-ui.min.css">
+
+
+<!--link rel="stylesheet" href="https://cdn.acwing.com/static/web/css/pace.css"-->
+<!--script src="https://cdn.acwing.com/static/web/js/pace.js"></script-->
+<script>
+    let onbeforeunload_functions = [];
+</script>
+
+
+<style>
+    /* latin */
+    @font-face {
+      font-family: 'Satisfy';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Satisfy Regular'), local('Satisfy-Regular'), url(https://cdn.acwing.com/static/web/fonts/rP2Hp2yn6lkG50LoCZOIHQ.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    /* latin-ext */
+    @font-face {
+      font-family: 'Lato';
+      font-style: italic;
+      font-weight: 400;
+      src: local('Lato Italic'), local('Lato-Italic'), url(https://cdn.acwing.com/static/web/fonts/S6u8w4BMUTPHjxsAUi-qJCY.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Lato';
+      font-style: italic;
+      font-weight: 400;
+      src: local('Lato Italic'), local('Lato-Italic'), url(https://cdn.acwing.com/static/web/fonts/S6u8w4BMUTPHjxsAXC-q.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: 'Lato';
+      font-style: italic;
+      font-weight: 700;
+      src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://cdn.acwing.com/static/web/fonts/S6u_w4BMUTPHjxsI5wq_FQft1dw.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Lato';
+      font-style: italic;
+      font-weight: 700;
+      src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://cdn.acwing.com/static/web/fonts/S6u_w4BMUTPHjxsI5wq_Gwft.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Lato Regular'), local('Lato-Regular'), url(https://cdn.acwing.com/static/web/fonts/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Lato Regular'), local('Lato-Regular'), url(https://cdn.acwing.com/static/web/fonts/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 700;
+      src: local('Lato Bold'), local('Lato-Bold'), url(https://cdn.acwing.com/static/web/fonts/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 700;
+      src: local('Lato Bold'), local('Lato-Bold'), url(https://cdn.acwing.com/static/web/fonts/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+</style>
+<script src="https://cdn.acwing.com/static/jquery/js/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.acwing.com/static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.acwing.com/static/web/node_modules/bootstrap-toggle/js/bootstrap-toggle.min.js"></script>
+<script src="https://cdn.acwing.com/static/jquery-ui-dist/jquery-ui.min.js"></script>
+<script src="https://cdn.acwing.com/static/web/node_modules/jquery.cookie/jquery.cookie.js"></script>
+<script>
+    $(document).ready(function () {
+        var csrftoken = $.cookie('csrftoken');
+
+        function csrfSafeMethod(method) {
+            // these HTTP methods do not require CSRF protection
+            return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+        }
+
+        $.ajaxSetup({
+            beforeSend: function(xhr, settings) {
+                if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                    xhr.setRequestHeader("X-CSRFToken", csrftoken);
+                }
+            },
+            cache: true
+        });
+    });
+</script>
+<script src="https://cdn.acwing.com/static/web/js/signform-0.0.1.js"></script>
+<script src="https://cdn.acwing.com/static/web/js/handlebars-v1.3.0.js"></script>
+<script src="https://cdn.acwing.com/static/web/js/effect_anchor-0.0.1.js"></script>
+<script src="https://cdn.acwing.com/static/web/js/editor/utils-0.0.1.js"></script>
+
+<script>
+    let user_state = {
+        is_authenticated: false,
+        is_pc: false,
+        is_tablet: false,
+        is_mobile: false,
+    };
+    if (user_state.is_authenticated){
+        user_state.user_id = None;
+        user_state.info = "";
+    }
+    
+        user_state.is_pc = true;
+    
+</script>
+<script>
+    let GLOBAL_COMMENT_SONS = {};
+</script>
+<style>
+    
+        #acwing_body {
+            background: white url("https://cdn.acwing.com/static/web/img/background.png") fixed;
+            background-size: auto;
+        }
+    
+
+    
+    @media (min-width: 768px) and (max-width: 1000px) {
+       .collapse {
+           display: none !important;
+       }
+    }
+    .popover {
+        z-index: 1000000 !important;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        width: 750px;
+      }
+    }
+    @media (min-width: 992px) {
+      .container {
+        width: 900px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .container {
+        width: 1000px;
+      }
+    }
+
+    @media (min-width: 1300px) {
+      .container {
+        width: 1170px;
+      }
+    }
+</style>
+
+
+<link rel="stylesheet" href="https://cdn.acwing.com/static/plugins/css/ace.min.css">
+<link rel="stylesheet" href="https://cdn.acwing.com/static/martor/css/martor.min.css">
+
+    <link rel="stylesheet" href="https://cdn.acwing.com/static/web/css/martor.css">
+
+<link rel="stylesheet" href="https://cdn.acwing.com/static/web/css/file_system/file/content/comment.css">
+
+
+    <link rel ="stylesheet" href="https://cdn.acwing.com/static/web/css/style-0.0.16.css">
+
+<link rel="stylesheet" href="https://cdn.acwing.com/static/web/css/base/navbar.css">
+
+    
+    
+        <link rel="stylesheet" href="https://cdn.acwing.com/static/web/css/problem/content-0.0.2.css">
+    
+    
+
+</head>
+<body id="acwing_body" style="min-height: 100vh;">
+
+
+
+<div id="acwing_page" >
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-expand-lg" style="z-index: 10;">
+        <div class="container">
+            <!-- Header -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavBar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    
+                </button>
+                
+
+                
+                <a class="navbar-brand" href="/">AcWing</a>
+            </div>
+
+            <!-- Items -->
+            <div class="collapse navbar-collapse" id="topNavBar">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="/about/">首页</a></li>
+                    <li id="navigation_activity_active_id" class=""><a href="/activity/">活动</a></li>
+                    <li class="active"><a href="/problem/">题库</a></li>
+                    <li id="navigation_competition_active_id" class=""><a href="/activity/1/competition/">竞赛</a></li>
+                    <li class=""><a href="/file_system/file/content/whole/index/content/whole/application/1/">应用</a></li>
+                    <li class="">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            更多
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/solution/">题解</a></li>
+                            <li><a href="/blog/">分享</a></li>
+                            <li id="navigation_store_active_id" class=""><a href="/activity/1/product/">商店</a></li>
+                            <li><a href="/community/">问答</a></li>
+                            <li class=""><a href="/http_wss/danmu/world/">吐槽</a></li>
+                        </ul>
+                    </li>
+                    <li class=""><a href="/app/version/download/index/">App</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#login-modal">登录/注册</a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="base_body">
+    <div class="container">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="nice_font problem-content-title">
+                89. a^b
+            </div>
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="active">
+                    <a class="problem-content-sub-btn" href="/problem/content/description/91/" style="padding-left: 30px; padding-right: 30px;">
+                        <span class="glyphicon glyphicon-list-alt" style="top: 4px;"></span>
+                        &nbsp;
+                        题目
+                    </a>
+                </li>
+                
+                <li role="presentation" class="">
+                    <a class="problem-content-sub-btn" href="/problem/content/discussion/index/91/1/" style="padding-left: 30px; padding-right: 30px;">
+                        <span class="glyphicon glyphicon-comment" style="top: 4px;"></span>
+                        &nbsp;
+                        讨论
+                    </a>
+                </li>
+                
+                    <li role="presentation" class="">
+                        <a class="problem-content-sub-btn" href="/problem/content/solution/91/1/" style="padding-left: 30px; padding-right: 30px;">
+                            <span class="glyphicon glyphicon-book" style="top: 4px;"></span>
+                            &nbsp;
+                            题解
+                        </a>
+                    </li>
+                    <li role="presentation" class="">
+                        <a class="problem-content-sub-btn" href="/problem/content/video/91/" style="padding-left: 30px; padding-right: 30px;">
+                            <span class="glyphicon glyphicon-book" style="top: 4px;"></span>
+                            &nbsp;
+                            视频讲解
+                        </a>
+                    </li>
+                
+            </ul>
+            <br>
+            
+    <div class="row">
+        <div class="col-sm-9 col-xs-12">
+            <div class="main-martor main-martor-content" data-field-name="content">
+                <div class="section-martor">
+                    <div class="ui bottom attached tab active martor-preview" data-tab="preview-tab-content">
+                        <p>求 $a$ 的 $b$ 次方对 $p$ 取模的值。</p>
+<h4>输入格式</h4>
+<p>三个整数 $a,b,p$ ,在同一行用空格隔开。</p>
+<h4>输出格式</h4>
+<p>输出一个整数，表示<code>a^b mod p</code>的值。</p>
+<h4>数据范围</h4>
+<p>$0 \le a,b \le 10^9$<br />
+$1 \le p \le 10^9$</p>
+<h4>输入样例：</h4>
+<pre><code>3 2 7
+</code></pre>
+
+<h4>输出样例：</h4>
+<pre><code>2
+</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 hidden-xs" style="padding-left: 0;top: -20px;">
+            <div class="table-responsive">
+                <table class="table table-striped table-responsive" style="border-left: 1px solid #f0f0f0;">
+                    <tbody>
+                        <tr>
+                            <td style="padding: 15px 8px 15px 8px;">
+                                难度：
+                                <span class="label label-success round" style="float:right;">简单</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 15px 8px 15px 8px;">
+                                时/空限制：
+                                <span style="float:right;">1s / 32MB</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 15px 8px 15px 8px;">
+                                总通过数：
+                                <span style="float:right;">25319</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 15px 8px 15px 8px;">
+                                总尝试数：
+                                <span style="float: right;">66932</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 15px 8px 15px 8px;">
+                                来源：
+                                <span style="float: right;">《算法竞赛进阶指南》</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 15px 8px 15px 8px;">
+                                <span class="problem-algorithm-tag" style="cursor: pointer">算法标签<span class="caret"></span></span>
+                                <div class="problem-algorithm-tag-field" style="display: none;"></div>
+                                <script>
+                                    $(document).ready(function () {
+                                        let $tag = $('.problem-algorithm-tag');
+                                        let $field = $('.problem-algorithm-tag-field');
+                                        let keywords = "位运算,快速幂".replace('，', ',').split(',');
+                                        for (let i = 0; i < keywords.length; i ++ ) {
+                                            let keyword = keywords[i].trim();
+                                            if (keywords) {
+                                                let $span = $(`<a href="/problem/search/1/?search_content=${keyword}"` +
+                                                        `style="text-decoration: none;" target="_blank">` +
+                                                    `<span class="problem-algorithm-tag-field-item">${keyword}</span></a>`);
+                                                $field.append($span);
+                                            }
+                                        }
+
+                                        $tag.click(function () {
+                                            if ($field.is(":visible")) {
+                                                $field.hide();
+                                            } else {
+                                                $field.show();
+                                            }
+                                        });
+                                    });
+                                </script>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <hr>
+    
+
+<div id="code_tool_bar">
+    
+    <button class="btn btn-link pull-right" data-toggle="modal" data-target="#code_editor_confg_modal" title="编辑器设置">
+        <span class="glyphicon glyphicon-cog editor_tool_btn"></span>
+    </button>
+    <button class="btn btn-link pull-right" data-toggle="modal" id="code-editor-refresh-btn" title="代码重置">
+        <span class="glyphicon glyphicon-refresh editor_tool_refresh_btn"></span>
+    </button>
+    <div class="code_editor_option_language form-group" style="float: right; margin: 8px 10px 0 10px;" title="选择编程语言">
+        <select name="language" style="height: 40px; width: 220px; border-radius: 4px;" class="form-control code-editor-option" id="id_language">
+  <option value="1" selected>C++</option>
+
+  <option value="2">C</option>
+
+  <option value="3">Java</option>
+
+  <option value="4">Python</option>
+
+  <option value="5">Javascript</option>
+
+  <option value="6">Python3</option>
+
+  <option value="8">Go</option>
+
+</select>
+    </div>
+    <div class="modal fade" id="code_editor_confg_modal">
+        <div class="modal-dialog" style="width: 85%; max-width: 600px;">
+            <div class="modal-content" style="margin-top: auto;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <div class="modal-title code-editor-option-head">
+                        代码编辑器设置
+                    </div>
+                </div>
+                <hr style="margin: 0 0 10px 0;">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-8 col-xs-12">
+                            <div class="code-editor-option-title">
+                                界面风格
+                            </div>
+                            <div class="code_editor_option_theme visible-xs-block">
+                                <select name="theme_option" style="max-width: 220px; border-radius: 4px; margin-bottom: 10px;" class="form-control code-editor-option" id="id_theme_option">
+  <option value="1" selected>Textmate</option>
+
+  <option value="2">Monoka</option>
+
+  <option value="3">Eclipse</option>
+
+</select>
+                            </div>
+                            <div class="code-editor-option-description">
+                                对白色界面感到厌倦了吗？可以尝试其他的背景和代码高亮风格。
+                            </div>
+                        </div>
+                        <div class="code_editor_option_theme col-sm-4 hidden-xs">
+                            <select name="theme_option" style="max-width: 220px; border-radius: 4px; margin-bottom: 10px;" class="form-control code-editor-option" id="id_theme_option">
+  <option value="1" selected>Textmate</option>
+
+  <option value="2">Monoka</option>
+
+  <option value="3">Eclipse</option>
+
+</select>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-8 col-xs-12">
+                            <div class="code-editor-option-title">
+                                编辑类型
+                            </div>
+                            <div class="code_editor_option_key_binding visible-xs-block">
+                                <select name="key_binding_option" style="max-width: 220px; border-radius: 4px; margin-bottom: 10px;" class="form-control code-editor-option" id="id_key_binding_option">
+  <option value="1" selected>Standard</option>
+
+  <option value="2">Vim</option>
+
+  <option value="3">Emacs</option>
+
+</select>
+                            </div>
+                            <div class="code-editor-option-description">
+                                更喜欢Vim或者Emacs的输入方式吗？我们也为你提供了这些选项。
+                            </div>
+                        </div>
+                        <div class="code_editor_option_key_binding col-sm-4 hidden-xs">
+                            <select name="key_binding_option" style="max-width: 220px; border-radius: 4px; margin-bottom: 10px;" class="form-control code-editor-option" id="id_key_binding_option">
+  <option value="1" selected>Standard</option>
+
+  <option value="2">Vim</option>
+
+  <option value="3">Emacs</option>
+
+</select>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-8 col-xs-12">
+                            <div class="code-editor-option-title">
+                                缩进长度
+                            </div>
+                            <div class="code_editor_option_tab_size visible-xs-block">
+                                <select name="tab_size_option" style="max-width: 220px; border-radius: 4px; margin-bottom: 10px;" class="form-control code-editor-option" id="id_tab_size_option">
+  <option value="1">2个空格</option>
+
+  <option value="2" selected>4个空格</option>
+
+  <option value="3">8个空格</option>
+
+</select>
+                            </div>
+                            <div class="code-editor-option-description">
+                                选择代码缩进的长度。默认是4个空格。
+                            </div>
+                        </div>
+                        <div class="code_editor_option_tab_size col-sm-4 hidden-xs">
+                            <select name="tab_size_option" style="max-width: 220px; border-radius: 4px; margin-bottom: 10px;" class="form-control code-editor-option" id="id_tab_size_option">
+  <option value="1">2个空格</option>
+
+  <option value="2" selected>4个空格</option>
+
+  <option value="3">8个空格</option>
+
+</select>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-8 col-xs-12">
+                            <div class="code-editor-option-title">
+                                代码补全
+                            </div>
+                            <div class="code_editor_option_code_complete visible-xs-block">
+                                <select name="code_complete_option" style="max-width: 220px; border-radius: 4px; margin-bottom: 10px;" class="form-control code-editor-option" id="id_tab_size_option">
+                                    <option value="1">无补全</option>
+                                    <option value="2" selected>单词级补全</option>
+                                    <option value="3">模板级补全</option>
+                                </select>
+                            </div>
+                            <div class="code-editor-option-description">
+                                写代码疲惫了吗？让我们来帮你一把。唤醒词列表在<a href="https://www.acwing.com/file_system/file/content/whole/index/content/2145234/" target="_blank">这里</a>。
+                            </div>
+                        </div>
+                        <div class="code_editor_option_code_complete col-sm-4 hidden-xs">
+                            <select name="code_complete_option" style="max-width: 220px; border-radius: 4px; margin-bottom: 10px;" class="form-control code-editor-option" id="id_tab_size_option">
+                                <option value="1">无补全</option>
+                                <option value="2" selected>单词级补全</option>
+                                <option value="3">模板级补全</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <hr style="margin: 10px 0 0 0;">
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal"  style="float: right; border-radius: 5px;">
+                        确定
+                    </button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+    <div>
+        <form id="code-eidtor-option-update-language-form" action="/problem/content/code_editor_preference/update/language/" method="post">
+            <input type="hidden" name="csrfmiddlewaretoken" value="bRaYPE6AmPVwqeXkcLTQItvHXruhtmoHOX96Yn31VVhglnwRsCkYXuUnvAzDH3GV">
+        </form>
+        <form id="code-eidtor-option-update-theme-form" action="/problem/content/code_editor_preference/update/theme/" method="post">
+            <input type="hidden" name="csrfmiddlewaretoken" value="bRaYPE6AmPVwqeXkcLTQItvHXruhtmoHOX96Yn31VVhglnwRsCkYXuUnvAzDH3GV">
+        </form>
+        <form id="code-eidtor-option-update-key-binding-form" action="/problem/content/code_editor_preference/update/key_binding/" method="post">
+            <input type="hidden" name="csrfmiddlewaretoken" value="bRaYPE6AmPVwqeXkcLTQItvHXruhtmoHOX96Yn31VVhglnwRsCkYXuUnvAzDH3GV">
+        </form>
+        <form id="code-eidtor-option-update-tab-size-form" action="/problem/content/code_editor_preference/update/tab_size/" method="post">
+            <input type="hidden" name="csrfmiddlewaretoken" value="bRaYPE6AmPVwqeXkcLTQItvHXruhtmoHOX96Yn31VVhglnwRsCkYXuUnvAzDH3GV">
+        </form>
+    </div>
+    <script>
+        let code_editor_name_config_mappings = {
+            "C++": "c_cpp",
+            "C": "c_cpp",
+             "Java": "java",
+            "Python": "python",
+            "Python3": "python",
+            "Javascript": "javascript",
+            "Go": "golang",
+            "Textmate": "textmate",
+            "Monoka": "monokai",
+            "Eclipse": "eclipse",
+            "Standard": "null",
+            "Vim": "vim",
+            "Emacs": "emacs",
+            "2个空格": "2",
+            "4个空格": "4",
+            "8个空格": "8",
+        };
+        let problem_code_show_mappings = {};
+    </script>
+</div>
+<div id="code_editor"></div>
+
+    <div>
+        <button class="btn btn-success" data-toggle="modal" data-target="#login-modal" style="float: right; border-radius: 20px; margin: 20px 0 0 20px;">
+            <span class="glyphicon glyphicon-cloud-upload" style="top: 1px;"></span>
+            &nbsp;
+            提交代码
+            &nbsp;
+        </button>
+        <button class="btn btn-default" data-toggle="modal" data-target="#login-modal" style="float: right; border-radius: 20px; margin: 20px 0 0 0;">
+            <span class="glyphicon glyphicon-play-circle" style="top: 2px;"></span>
+            &nbsp;
+            运行代码
+            &nbsp;
+        </button>
+    </div>
+
+
+        </div>
+    </div>
+</div>
+</div>
+    
+
+<div id="1024-activity" style="position: fixed; top: 15vh; cursor: pointer; display: none; z-index:999999999">
+    <div id="1024-activity-whole">
+        <img id="1024-img" src="https://cdn.acwing.com/static/web/img/base/national_activity/20230618_2.png" width="80" alt="1024" style="border-radius: 5px">
+        <div id="1024-close-btn" style="color: black; position: fixed; top: calc(15vh - 8px); left: 70px; cursor: pointer; font-size: 20px;">x</div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            const start_date = 24, start_hours = 10;
+            let $activity = $('#1024-activity');
+            let $img = $('#1024-img');
+            let $timer = $('#1024-timer');
+            if (!((new Date()).getDate() < start_date || (new Date()).getDate() === start_date && (new Date()).getHours() < start_hours)) {
+                $img.attr('src', "https://cdn.acwing.com/static/web/img/base/national_activity/20230618_2.png");
+            }
+
+            if (typeof(localStorage) !== "undefined") {
+                let last_time = localStorage.getItem("1024-activity-last-close-time");
+                let delta_time = Math.ceil((Date.now() - last_time) / 1000);
+
+                if (delta_time < 6 * 3600) return false;  // 6小时内关闭过，则不再展示
+            }
+
+            $activity.show("slide", { direction: "left" }, 200);
+            if ((new Date()).getDate() < start_date || (new Date()).getDate() === start_date && (new Date()).getHours() < start_hours) {
+                $timer.show();
+            }
+
+            let has_closed = false;
+            let myeffect = function () {
+                if (has_closed) return false;  // 如果已经关闭，则不再抖动
+                setTimeout(function () {
+                    $activity.effect("bounce", "slow", function () {
+                        myeffect();
+                    });
+                }, 5000);  // 每5s循环一次
+            };
+            myeffect();
+
+            let $close_btn = $('#1024-close-btn');
+            $close_btn.click(function () {
+                $activity.hide("slide", { direction: "left" }, 200);
+                if (typeof(localStorage) !== "undefined") {
+                    localStorage.setItem("1024-activity-last-close-time", Date.now());
+                }
+                return false;
+            });
+            $activity.click(function () {
+                $activity.hide("slide", { direction: "left" }, 200);
+                if (typeof(localStorage) !== "undefined") {
+                    localStorage.setItem("1024-activity-last-close-time", Date.now());
+                }
+                window.open(/activity/, '_blank').focus();
+            });
+
+            let update_timer = function (time) {
+                let secs = Math.ceil((Date.parse(time) - Date.now()) / 1000);
+                let interval_function = function () {
+                    if (secs <= 0) {
+                        $timer.hide();
+                        $img.attr('src', "https://cdn.acwing.com/static/web/img/base/national_activity/20230618_2.png");
+                        return false;
+                    }
+                    let second = secs;
+                    let hours = Math.floor(second / 3600);
+                    second -= hours * 3600;
+                    let minutes = Math.floor(second / 60);
+                    second -= minutes * 60;
+
+                    let $hour = $('#1024-timer-hour');
+                    let $minute = $('#1024-timer-minute');
+                    let $second = $('#1024-timer-second');
+
+                    $hour.text(hours >= 10 ? hours: "0" + hours);
+                    $minute.text(minutes >= 10 ? minutes : "0" + minutes);
+                    $second.text(second >= 10 ? second : "0" + second);
+                    secs -- ;
+                };
+
+                interval_function();
+                setInterval(interval_function, 1000)
+            };
+
+            if ((new Date()).getDate() < start_date || (new Date()).getDate() === start_date && (new Date()).getHours() < start_hours) {
+                update_timer("2022-12-10T20:00:00");
+            }
+        });
+    </script>
+</div>
+    <footer id="acwing_footer" class="footer">
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-sm-8 copyright">
+                <span>
+                    © 2018-2023 AcWing 版权所有
+                    &nbsp;|&nbsp;
+                    <a href="http://beian.miit.gov.cn/">京ICP备17053197号-1</a>
+                </span>
+            </div>
+            <div class="text-right col-sm-4 region-us">
+                <div class="links">
+                    <a href="/footer/agreement/">用户协议</a>
+                    &nbsp;|&nbsp;
+                    <a href="/footer/privacy_policy/">隐私政策</a>
+                    &nbsp;|&nbsp;
+                    <a href="/footer/faq/">常见问题</a>
+                    &nbsp;|&nbsp;
+                    <a href="/footer/contactus/">联系我们</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+
+
+    
+
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	<div class="modal-dialog" style="width: 85%; max-width: 350px;">
+			<div class="modal-content">
+				<div class="modal-header" align="center">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+					</button>
+                    <span class = "acwing-brand">AcWing</span>
+				</div>
+
+                <!-- Begin # DIV Form -->
+                <div id="div-forms">
+
+                    <!-- Begin # Login Form -->
+                    <form class="sign-form" id="login-form" role="form" action="/user/account/signin/" method="post" enctype="multipart/form-data">
+                        <input type="hidden" name="csrfmiddlewaretoken" value="bRaYPE6AmPVwqeXkcLTQItvHXruhtmoHOX96Yn31VVhglnwRsCkYXuUnvAzDH3GV">
+		                <div class="modal-body">
+				    		<div id="div-login-msg">
+                                <div id="icon-login-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                <span id="text-login-msg">请输入登录信息</span>
+                            </div>
+				    		<input id="login_username" name="username" class="form-control" type="text" placeholder="用户名或邮箱" maxlength="30" required>
+				    		<input id="login_password" name="password" class="form-control" type="password" placeholder="密码" maxlength="16" required>
+                            <div class="checkbox">
+                                <label>
+                                    <input id="login_remember_me" name="remember_me" type="checkbox" checked="checked"> 记住我
+                                </label>
+                            </div>
+        		    	</div>
+				        <div class="modal-footer">
+                            <div>
+                                <button type="submit" class="btn btn-primary btn-lg btn-block">登录</button>
+                            </div>
+                            <div>
+                                <div style="width:50%;padding:0;margin:0;float:left;box-sizing:border-box;" align="left">
+                                    <button id="login_lost_btn" type="button" class="btn btn-link">忘记密码</button>
+                                </div>
+                                <div style="width:50%;padding:0;margin:0;float:left;box-sizing:border-box;" align="right">
+                                    <button id="login_register_btn" type="button" class="btn btn-link">注册</button>
+                                </div>
+                            </div>
+                            <div>
+                                更多登录方式：
+                                <a id="third_party_weixin_connect_link_base" href="#" style="margin-right: 5px">
+                                    <img class="img" src="https://cdn.acwing.com/static/web/img/third_party_icons/icon48_wx_logo.png" width="30px" alt="微信图标">
+                                </a>
+                                <a href="/third_party/qq/login/apply_code?source_url=/problem/content/description/91/" style="margin-right: 5px">
+                                    <img class="img" src="https://cdn.acwing.com/static/web/img/third_party_icons/qq.jpg" width="26px" alt="qq图标">
+                                </a>
+                                <a href="/third_party/cell_phone/login/index/?source_url=/problem/content/description/91/">
+                                    <img class="img" src="https://cdn.acwing.com/static/web/img/user/profile/security/cell-phone3.png" width="20px" alt="qq图标">
+                                </a>
+                            </div>
+				        </div>
+                    </form>
+                    <!-- End # Login Form -->
+
+                    <!-- Begin | Lost Password Form -->
+                    <form class="sign-form" id="lost-form" role="form" action="/user/account/password_forget/" method="post" enctype="multipart/form-data" style="display:none;" >
+                        <input type="hidden" name="csrfmiddlewaretoken" value="bRaYPE6AmPVwqeXkcLTQItvHXruhtmoHOX96Yn31VVhglnwRsCkYXuUnvAzDH3GV">
+    	    		    <div class="modal-body">
+		    				<div id="div-lost-msg">
+                                <div id="icon-lost-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                <span id="text-lost-msg">请输入绑定的邮箱地址</span>
+                            </div>
+		    				<input id="lost_email" name="email" class="form-control" type="email" placeholder="邮箱地址" maxlength="254" required>
+            			</div>
+		    		    <div class="modal-footer">
+                            <div>
+                                <button type="submit" id="lost_password_btn" class="btn btn-primary btn-lg btn-block">发送</button>
+                            </div>
+                            <div>
+                                <div style="width:50%;padding:0;margin:0;float:left;box-sizing:border-box;" align="left">
+                                    <button id="lost_login_btn" type="button" class="btn btn-link">登录</button>
+                                </div>
+                                <div style="width:50%;padding:0;margin:0;float:left;box-sizing:border-box;" align="right">
+                                    <button id="lost_register_btn" type="button" class="btn btn-link">注册</button>
+                                </div>
+                            </div>
+		    		    </div>
+                    </form>
+                    <!-- End | Lost Password Form -->
+
+                    <!-- Begin | Register Form -->
+                    <form class="sign-form" id="register-form" role="form" action="/user/account/signup/" method="post" enctype="multipart/form-data" style="display:none;">
+                        <input type="hidden" name="csrfmiddlewaretoken" value="bRaYPE6AmPVwqeXkcLTQItvHXruhtmoHOX96Yn31VVhglnwRsCkYXuUnvAzDH3GV">
+            		    <div class="modal-body">
+		    				<div id="div-register-msg">
+                                <div id="icon-register-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                <span id="text-register-msg">请输入注册信息</span>
+                            </div>
+		    				<input id="register_username" name="username" class="form-control" type="text" placeholder="用户名" maxlength="30" required>
+                            <input id="register_password" name="password" class="form-control" type="password" placeholder="密码" maxlength="16" required>
+                            <input id="register_email" name="email" class="form-control" type="email" placeholder="邮箱地址" maxlength="50" required>
+            			</div>
+		    		    <div class="modal-footer">
+                            <div>
+                                <button type="submit" class="btn btn-primary btn-lg btn-block">注册</button>
+                            </div>
+                            <div align="right">
+                                <button id="register_login_btn" type="button" class="btn btn-link">登录</button>
+                            </div>
+		    		    </div>
+                    </form>
+                    <!-- End | Register Form -->
+
+                </div>
+                <!-- End # DIV Form -->
+
+			</div>
+		</div>
+	</div>
+    <!-- END # MODAL LOGIN -->
+
+
+
+
+
+
+<div id="modal-warning" class="modal modal-message modal-warning fade" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <i class="glyphicon glyphicon-warning-sign"></i>
+            </div>
+            <div id="warning_message_content" class="modal-body"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-dismiss="modal">OK</button>
+            </div>
+        </div> <!-- / .modal-content -->
+    </div> <!-- / .modal-dialog -->
+</div>
+
+
+    <script>
+        let GLOBAL_PROBLEM_MODE = "normal";
+        let GLOBAL_PROBLEM_ACTIVITY_ID = 0;
+        let GLOBAL_PROBLEM_RECORD = [];
+        let GLOBAL_PROBLEM_CHALLENGE_MODE_STATUS = 0;   // 0 表示未结束，1表示赢，2表示输
+        
+    </script>
+    
+    
+        <script src="https://cdn.acwing.com/static/web/third_party/ace-builds/src-min-noconflict/ace.js"  type="text/javascript" charset="utf-8"></script>
+        <script src="https://cdn.acwing.com/static/web/third_party/ace-builds/src-min-noconflict/ext-language_tools-0.0.1.js"></script>
+        <script src="https://cdn.acwing.com/static/web/js/editor/code_completer/dist/code_completer-0.0.11.min.js"></script>
+        <script src="https://cdn.acwing.com/static/web/js/editor/utils-0.0.1.js"></script>
+    
+    <script src="https://cdn.acwing.com/static/web/js/editor/code_editor-0.0.7.js"></script>
+    <script src="https://cdn.acwing.com/static/web/js/editor/debug_code-0.0.24.js"></script>
+    <script>
+        let PROBLEM_ID = 91;
+    </script>
+
+
+
+
+
+<script src="https://cdn.acwing.com/static/web/js/copy_with_link.js"></script>
+<script>
+    let article_author = "";
+    if (article_author.length === 0) article_author = "AcWing";
+    let VIDEO_CONTENT_WATERMARK_LOGO_URL = "https://cdn.acwing.com/static/web/img/32X32.ico";
+</script>
+<script src="https://cdn.acwing.com/static/plugins/js/highlight.min.js"></script>
+<script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+          showMathMenu: false,
+        });
+</script>
+<script type="text/javascript" src="https://cdn.acwing.com/static/MathJax-2.6-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    $('pre').each(function(i, block){
+        hljs.highlightBlock(block);
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.acwing.com/static/web/js/file_system/file/operation/comment/pull-0.0.6.js"></script>
+<script>
+    
+    
+        $(document).ready(function () {
+            let $weixin_connect_link = $('#third_party_weixin_connect_link_base');
+            $weixin_connect_link.attr("href", "/third_party/weixin/open_platform/login/apply_code/?source_url=/problem/content/description/91/");
+            if (typeof WeixinJSBridge === "object" && typeof WeixinJSBridge.invoke === "function") {
+                callback();
+            } else {
+                if (document.addEventListener) {
+                    document.addEventListener("WeixinJSBridgeReady", callback, false);
+                } else if (document.attachEvent) {
+                    document.attachEvent("WeixinJSBridgeReady", callback);
+                    document.attachEvent("onWeixinJSBridgeReady", callback);
+                }
+            }
+            function callback() {
+                $weixin_connect_link.attr("href", "/third_party/weixin/open_platform/login/apply_code/1/?source_url=/problem/content/description/91/");
+            }
+        });
+    
+    window.onbeforeunload = function (ev) {
+
+        
+
+        let notify = false;
+        for (let i = 0; i < onbeforeunload_functions.length; i ++ ){
+            let ret = onbeforeunload_functions[i]();
+            if (ret){
+                notify = true;
+            }
+        }
+        if (notify){
+            return true;
+        }
+    };
+
+    let CLICK_URL = "/status/count/click/";
+</script>
+<script src="https://cdn.acwing.com/static/web/js/status/click.js"></script>
+
+</body>
+</html>

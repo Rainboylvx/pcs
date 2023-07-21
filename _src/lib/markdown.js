@@ -1,5 +1,6 @@
 //markdown 渲染
-import  markdown  from "markdown-r";
+//import  markdown  from "markdown-r";
+import markdown from './markdown/index.cjs'
 //[javascript - How to resolve Node.js ES6 (ESM) Modules with the TypeScript Compiler (TSC). TSC doesn't emit the correct file-ext - Stack Overflow](https://stackoverflow.com/questions/44979976/how-to-resolve-node-js-es6-esm-modules-with-the-typescript-compiler-tsc-tsc)
 import { readFileSync, writeFileSync } from 'fs';
 import yamlFront from "yaml-front-matter";

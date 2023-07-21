@@ -119,3 +119,4 @@ dist
 *.out
 json/
 push.sh
+.ccls-cache

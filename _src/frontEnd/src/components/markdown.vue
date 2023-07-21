@@ -19,3 +19,6 @@ const props = defineProps({
         md:String
     })
 </script>
+
+<style lang="scss">
+</style>

@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132.19598388671875 160" width="264.3919677734375" height="320">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+    </style>
+    
+  </defs>
+  <rect x="0" y="0" width="132.19598388671875" height="160" fill="#fffce8"></rect><g transform="translate(10 10) rotate(0 56.097991943359375 70)"><text x="0" y="0" font-family="Virgil, HanziPen SC, Cangnanshoujiti, KaiTi, Segoe UI Emoji" font-size="28px" fill="#1e1e1e" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">4 5 9 4</text><text x="0" y="35" font-family="Virgil, HanziPen SC, Cangnanshoujiti, KaiTi, Segoe UI Emoji" font-size="28px" fill="#1e1e1e" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">5 9 4 4</text><text x="0" y="70" font-family="Virgil, HanziPen SC, Cangnanshoujiti, KaiTi, Segoe UI Emoji" font-size="28px" fill="#1e1e1e" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">9 4 4 5</text><text x="0" y="105" font-family="Virgil, HanziPen SC, Cangnanshoujiti, KaiTi, Segoe UI Emoji" font-size="28px" fill="#1e1e1e" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">4 4 5 9</text></g></svg>
