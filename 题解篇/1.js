@@ -36,15 +36,17 @@ function main(){
     // console.log(a)
     // return
 
-    const regx = /-\s*\[(P\d{4})\].*/
+    // const regx = /-\s*\[(P\d{4})\].*/
+    const regx = /^(\d{4})$/
     for(let line of raw1) {
         
         if( regx.test(line))
         {
             let mat = line.match(regx)
+            console.log( mat[1] )
             let data = getInfo(mat[1])
             // console.log(mat[1])
-            console.log(`- [${mat[1]} \`${data}\`](../luogu/${mat[1]}/1.md)`)
+            console.log(`- [\`${mat[1]} ${data}\`](../luogu/${mat[1]}/1.md)`)
 
         }
         else

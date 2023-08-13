@@ -9,9 +9,10 @@
   "type": "module",
   "scripts": {
     "start": "PORT=3333 node ./_src/express/bin/www.js",
-    "render":"node ./_src/lib/renderAll.js",
+    "render": "node ./_src/lib/renderAll.js",
     "dev": "vite --host",
     "build": "vue-tsc --noEmit && vite build",
+    "push": "node ./_src/lib/renderAll.js && vite build && ./push.sh",
     "gen_data_json": "",
     "serve": "vite preview"
   },
@@ -38,7 +39,7 @@
     "@vue/compiler-sfc": "3.2.41",
     "autoprefixer": "^10.4.13",
     "axios": "^1.2.3",
-    "ejs": "^3.1.8",
+    "ejs": "^3.1.9",
     "fs-extra": "^11.1.0",
     "gray-matter": "^4.0.3",
     "katex": "^0.16.8",

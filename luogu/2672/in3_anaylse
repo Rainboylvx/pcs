@@ -1,0 +1,26 @@
+1	2	3	4	5	6	7	
+15	15	18	16	16	11	4	
+3	2	2	6	5	1	4	
+33	32	38	38	37	23	12	
+-------------- choose len : 1
+4  | sum = 38
+3  | sum = 38
+max = 38  |  max end pos = 3 ---> 显然第一次选最大的那个数 38
+-------------- choose len : 2
+4 5  | sum = 43
+max = 43  |  max end pos = 5 --> 为什么会选5呢?
+-------------- choose len : 3
+1 4 5  | sum = 46
+max = 46  |  max end pos = 5 然后又选了1
+-------------- choose len : 4
+1 3 4 5  | sum = 48     第3个数
+max = 48  |  max end pos = 5
+-------------- choose len : 5
+1 2 3 4 5  | sum = 50 第4个数
+max = 50  |  max end pos = 5
+-------------- choose len : 6
+1 2 3 4 5 6  | sum = 41 第6个
+max = 41  |  max end pos = 6
+-------------- choose len : 7
+1 2 3 4 5 6 7  | sum = 31  第7个
+max = 31  |  max end pos = 7

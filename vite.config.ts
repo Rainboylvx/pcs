@@ -5,7 +5,7 @@ import svgLoader from 'vite-svg-loader'
 import MyVirtualBlogDataPlugin from './_src/frontEnd/src/virtualDataModule'
 // import MyMarkdownRender from './_src/frontEnd/src/virtualMarkdownRender'
 
-import info_headers from './_src/lib/info_headers.json'
+import info_headers from './json/info_headers.json'
 const outDir = 'json'
 // https://vitejs.dev/config/
 export default defineConfig({

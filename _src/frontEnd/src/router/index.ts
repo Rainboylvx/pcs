@@ -6,6 +6,7 @@ import About from '../views/About.vue'
 import Article from '../views/Article.vue'
 import Collection from '@/views/collection.vue'
 import tagCloud from '@/views/tag_cloud.vue'
+import _404 from '@/views/404.vue'
 
 import {useMainStore} from '../stores/main.store'
 import { get_artilce } from '../axios'
@@ -38,6 +39,10 @@ const routes: Array<RouteRecordRaw> = [
     path: '/about',
     component: About,
   },
+  {
+    path: '/404',
+    component: _404,
+  },
 ]
 
 // https://vitejs.dev/guide/env-and-mode.html
@@ -52,12 +57,16 @@ router.beforeEach( (to,from)=> {
     //         return false
     //     }
     // }
-    console.log( from )
-    console.log( to )
+    console.log("router from ->:", from )
+    console.log("router to-> :", to )
     if(to.name === 'Article') {
         let article_info = my_db.findOne_by_id(to.params.id)
-        console.log( article_info )
-        console.log( article_info.orign_path )
+        console.log( "article_info",article_info )
+        // if( !article_info ) {
+        //     next({path:'/404'})
+        //     return false;
+        // }
+        console.log("article_info.orign_path", article_info.orign_path )
         get_artilce(article_info.orign_path).then( ({header,__content})=>{
             const mainStore = useMainStore()
             mainStore.set_article(__content)

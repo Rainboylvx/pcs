@@ -1,5 +1,5 @@
 ---
-_id: "noip_csp-solutions"
+_id: "noip_csp-solutions-bak"
 title: "noip/csp 历年题目解析"
 date: 2019-11-21 11:04
 update: 2019-11-21 11:04

@@ -1,0 +1,117 @@
+<%
+luogu_samples_2_tables = function(samples){
+    if(!samples) return ""
+    if(samples.length == 0) return ""
+    let res = ["|----|----|"]
+    for(let i = 0 ;i < samples.length ;i++){
+        let [input,output] = samples[i]
+        //console.log(input.split('\n'))
+        input_arr = input.split('\n')
+        input_arr.push("```")
+        input_arr.unshift("```")
+        input_arr.unshift(`输入 #${i+1}`)
+
+        output_arr = output.split('\n')
+        output_arr.push("```")
+        output_arr.unshift("```")
+        output_arr.unshift(`输出 #${i+1}`)
+
+        let m = Math.max(input_arr.length,output_arr.length)
+        for( let j = 0; j< m; j++){
+        res.push(`|${ j < input_arr.length ? input_arr[j] : ' '}  |${j < output_arr.length ? output_arr[j] : ' ' }  ${j == m-1 || j==0 ? '|' :'\\'}`)
+        }
+    }
+    return res.join('\n')
+}
+function dateFormat(fmt, date) {
+    let ret;
+    let opt = {
+        "Y+": date.getFullYear().toString(),        // 年
+        "m+": (date.getMonth() + 1).toString(),     // 月
+        "d+": date.getDate().toString(),            // 日
+        "H+": date.getHours().toString(),           // 时
+        "M+": date.getMinutes().toString(),         // 分
+        "S+": date.getSeconds().toString()          // 秒
+        // 有其他格式化字符需求可以继续添加，必须转化成字符串
+    };
+    for (let k in opt) {
+        ret = new RegExp("(" + k + ")").exec(fmt);
+        if (ret) {
+            fmt = fmt.replace(ret[1], (ret[1].length == 1) ? (opt[k]) : (opt[k].padStart(ret[1].length, "0")))
+        };
+    };
+    return fmt;
+}
+%>
+---
+_id: "luogu-<%- pid %>"
+title: "<%- title %>"
+date: <%- dateFormat("YYY-mm-dd HH:MM", new Date()) %>
+update: <%- dateFormat("YYY-mm-dd HH:MM", new Date()) %>
+author: Rainboy
+tags:
+    - 
+source: 
+    - 
+      oj: luogu-<%- pid %>
+      url: https://www.luogu.com.cn/problem/<%- pid %>
+---
+
+@[toc]
+
+## 题目
+<% if( background) {%>
+### 题目背景 
+<%- background %>
+<% }%>
+
+<% if( description ) {%>
+### 题目描述
+
+<%- description %>
+<% }%>
+
+<% if( inputFormat ) {%>
+### 输入格式
+<%- inputFormat %>
+<% }%>
+
+<% if( outputFormat) {%>
+### 输出格式
+
+<%- outputFormat %>
+<% }%>
+
+<% if( samples ) {%>
+### 样例
+
+<%# - luogu_samples_2_tables(samples) %>
+<% for (let i = 0 ;i < samples.length ;i++) { %>
+输入/输出 # <%= i+1 %>
+
+::: line
+```
+<%= samples[i][0]%>
+```
+
+```
+<%= samples[i][1]%>
+```
+:::
+<% }%>
+
+<% }%>
+
+<% if( hint ) {%>
+### 说明/提示
+<%- hint %>
+<% }%>
+
+## 解析
+
+
+## 代码
+
+```c
+<%%- include("1.cpp") %>
+```

@@ -9,45 +9,49 @@ int n,m;
 vector<int> v[100];
 
 int d[1000];
-int ans;
+int ans = 999999;
 
 bool check(){
-    for(int i=1;i<=m;++i){
-        int start = v[i].front();
-        int end = v[i].back();
+    for(int i=1;i<=m;++i){ //检查m条线路
+        int size = v[i].size(); //车站的数量
         int st = 0; // st v[i]的下标
-        int _max = 0; //记非路线上的车站的最大值
-        int _min = 9999999; // 记在路线上的最小值
-        for(int j = start ; j <= end;j++){
-            if( j == v[i][st]){
-                _min = min(_min,d[j]);
-                st++;
-            }
-            else {
-                _max = max(_max,d[j]);
+        int _min_carStation =  999999;
+        for(int j=0;j<size;j++)
+            _min_carStation = std::min(_min_carStation,d[v[i][j]]);
+
+        for(int j=1;j<size;j++){
+            int start = v[i][j-1];
+            int end = v[i][j];
+            for(int k=start+1;k<end;++k){ //尝试中间的car station
+                if( d[k] >= _min_carStation)
+                    return false;
             }
         }
-        if( _min <= _max) return false;
     }
     return true;
 }
 
-void dfs(int dep){
+bool dfs(int dep){
     if( dep > n){
         if( check() ){
+            // 到到最大的那个点
+            int _max = 0;
             for(int i=1;i<=n;++i){
-                //std::cout << d[i] << " ";
-                ans = min(ans ,d[i]);
+                _max = std::max( _max,d[i]);
             }
-            //std::cout << " YES" ;
-            //std::cout  << std::endl;
+            ans = std::min(ans,_max);
+            // std::cout << " YES << " << ans;
+            cout << ans;
+            return true;
         }
-        return;
+        return false;
     }
     for(int i=1;i<=n;++i){
         d[dep] = i;
-        dfs(dep+1);
+        if( dfs(dep+1))
+            return  true;
     }
+    return false;
 }
 
 int main(int argc,char * argv[]){
@@ -59,11 +63,11 @@ int main(int argc,char * argv[]){
         for(int j=1;j<=t;++j){
             int tt;
             std::cin >> tt;
-            v[i].push_back(tt);
+            v[i].push_back(tt); //第i条车
         }
     }
     dfs(1);
-    std::cout << ans ;
+    // std::cout << ans ;
 
     return 0;
 }

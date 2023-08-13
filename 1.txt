@@ -1,0 +1,2980 @@
+yarn run v1.22.19
+warning ../package.json: No license field
+$ node ./_src/lib/renderAll.js
+1: acwing/100/1.md acwing-100
+2: acwing/101/1.md acwing-101
+3: acwing/103/1.md acwing-103
+4: acwing/104/1.md acwing-104
+5: acwing/105/1.md acwing-105
+6: acwing/106/1.md acwing-106
+Error: /home/rainboy/mycode/rbookr/pcs/acwing/1067/1.md:20
+    18| 
+    19| ```c
+ >> 20| <%- include("1.cpp") %>
+    21| ```
+    22| 
+    23| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/acwing/1067/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/acwing/1067/1.md'
+}
+7: acwing/1067/1.md acwing-1067
+Error: /home/rainboy/mycode/rbookr/pcs/acwing/1067/1.md:20
+    18| 
+    19| ```c
+ >> 20| <%- include("1.cpp") %>
+    21| ```
+    22| 
+    23| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/acwing/1067/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/acwing/1067/1.md'
+}
+8: acwing/107/1.md acwing-107
+9: acwing/109/1.md acwing-109
+10: acwing/110/1.md acwing-110
+11: acwing/111/1.md acwing-111
+12: acwing/114/1.md acwing-114
+13: acwing/115/1.md acwing-115
+14: acwing/128/1.md acwing-128
+15: acwing/130/1.md acwing-130
+16: acwing/131/1.md acwing-131
+17: acwing/132/1.md acwing-132
+18: acwing/133/1.md acwing-133
+19: acwing/135/1.md acwing-135
+20: acwing/141/1.md acwing-141
+LaTeX-incompatible input and strict mode is set to 'warn': % comment has no terminating newline; LaTeX would fail because of commenting the end of math mode (e.g. $) [commentAtEnd]
+LaTeX-incompatible input and strict mode is set to 'warn': % comment has no terminating newline; LaTeX would fail because of commenting the end of math mode (e.g. $) [commentAtEnd]
+LaTeX-incompatible input and strict mode is set to 'warn': % comment has no terminating newline; LaTeX would fail because of commenting the end of math mode (e.g. $) [commentAtEnd]
+21: acwing/243/1.md acwing-243
+22: acwing/288/1.md acwing-288
+23: acwing/289/1.md acwing-289
+Error: /home/rainboy/mycode/rbookr/pcs/acwing/41/1.md:23
+    21| 
+    22| ```c
+ >> 23| <%- include("2.cpp") %>
+    24| ```
+    25| 
+
+Could not find the include file "2.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/acwing/41/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/acwing/41/1.md'
+}
+24: acwing/41/1.md acwing-41
+Error: /home/rainboy/mycode/rbookr/pcs/acwing/41/1.md:23
+    21| 
+    22| ```c
+ >> 23| <%- include("2.cpp") %>
+    24| ```
+    25| 
+
+Could not find the include file "2.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/acwing/41/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/acwing/41/1.md'
+}
+25: acwing/89/1.md acwing-89
+26: acwing/90/1.md acwing-90
+27: acwing/91/1.md acwing-91
+28: acwing/998/1.md acwing-998
+29: AOJ/2843/1.md aoj-2843
+30: codefores/590c/1.md f23a5d59403f8fe658e5bf716ac9b754
+31: contest_目录/noip历年提高组题目.md 8ebc286f47
+32: contest_目录/noip历年普及组题目.md e3d5b95a74
+33: hdu/1166/1.md hdu-1166
+34: hdu/1754/1.md hdu-1754
+35: hdu/1814/1.md 56f093023c
+36: hdu/2610/1.md ae97044cb11c67a1a48726eae37d3c84
+37: hdu/2757/1.md 48401ea45982d7e604fd9c3896bbea59
+38: hdu/2899/1.md hdu-2899
+39: hdu/3535/1.md hdu-3535
+40: loj/10000/1.md loj-10000
+41: loj/10001/1.md loj-10001
+42: loj/10002/1.md loj-10002
+43: loj/10003/1.md loj-10003
+44: loj/10004/1.md loj-10004
+45: loj/10005/1.md loj-10005
+46: loj/10006/1.md loj-10006
+47: loj/10007/1.md loj-10007
+48: loj/10008/1.md loj-10008
+49: loj/10009/1.md loj-10009
+50: loj/10010/1.md loj-10010
+51: loj/10011/1.md loj-10011
+52: loj/10012/1.md loj-10012
+53: loj/10013/1.md loj-10013
+54: loj/10014/1.md loj-10014
+55: loj/10015/1.md loj-10015
+56: loj/10016/1.md loj-10016
+57: loj/10018/1.md loj-10018
+58: loj/10019/1.md loj-10019
+59: loj/10020/1.md loj-10020
+60: loj/10021/1.md loj-10021
+61: loj/10022/1.md loj-10022
+62: loj/10023/1.md loj-10023
+63: loj/10024/1.md loj-10024
+64: loj/10025/1.md loj-10025
+65: loj/10027/1.md loj-10027
+66: loj/10028/1.md loj 10028
+67: loj/10029/1.md loj-10029
+68: loj/10031/1.md loj-10031
+69: loj/10034/1.md loj-10034
+70: loj/10035/1.md loj-10035
+71: loj/10036/1.md loj-10036
+72: loj/10038/1.md loj-10038
+73: loj/10040/1.md loj-10040
+74: loj/10041/1.md loj-10041
+75: loj/10042/1.md loj-10042
+76: loj/10043/1.md loj-10043
+77: loj/10045/1.md loj-10045
+78: loj/10048/1.md loj-10048
+79: loj/10049/1.md loj-10049
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10050/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10050/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10050/1.md'
+}
+80: loj/10050/1.md loj-10050
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10050/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10050/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10050/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10051/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10051/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10051/1.md'
+}
+81: loj/10051/1.md loj-10051
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10051/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10051/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10051/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10052/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10052/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10052/1.md'
+}
+82: loj/10052/1.md loj-10052
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10052/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10052/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10052/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10053/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10053/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10053/1.md'
+}
+83: loj/10053/1.md loj-10053
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10053/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10053/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10053/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10054/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10054/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10054/1.md'
+}
+84: loj/10054/1.md loj-10054
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10054/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10054/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10054/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10055/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10055/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10055/1.md'
+}
+85: loj/10055/1.md loj-10055
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10055/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10055/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10055/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10056/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10056/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10056/1.md'
+}
+86: loj/10056/1.md loj-10056
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10056/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10056/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10056/1.md'
+}
+87: loj/10057/1.md loj-10057
+88: loj/10058/1.md loj-10058
+89: loj/10059/1.md loj-10059
+90: loj/10060/1.md loj-10060
+91: loj/10061/1.md loj-10061
+92: loj/10062/1.md loj-10062
+93: loj/10063/1.md loj-10063
+94: loj/10064/1.md loj-10064
+95: loj/10065/1.md loj-10065
+96: loj/10066/1.md loj-10066
+97: loj/10067/1.md loj-10067
+98: loj/10068/1.md loj-10068
+99: loj/10069/1.md loj-10069
+100: loj/10070/1.md loj-10070
+101: loj/10072/1.md loj-10072
+102: loj/10074/1.md loj-10074
+103: loj/10075/1.md loj-10075
+104: loj/10076/1.md loj-10076
+105: loj/10077/1.md loj-10077
+106: loj/10078/1.md loj-10078
+107: loj/10081/1.md loj-10081
+108: loj/10082/1.md loj-10082
+109: loj/10083/1.md loj-10083
+110: loj/10084/1.md loj-10084
+111: loj/10085/1.md loj-10085
+112: loj/10086/1.md loj-10086
+113: loj/10087/1.md loj-10087
+114: loj/10088/1.md loj-10088
+115: loj/10090/1.md loj-10090
+116: loj/10091/1.md loj-10091
+117: loj/10092/1.md loj-10092
+118: loj/10093/1.md loj-10093
+119: loj/10094/1.md loj-10094
+120: loj/10095/1.md loj-10095
+121: loj/10096/1.md loj-10096
+122: loj/10098/1.md loj-10098
+123: loj/10099/1.md f1293f0a58
+124: loj/10100/1.md loj-10100
+125: loj/10101/1.md loj-10101
+126: loj/10102/1.md loj-10102
+127: loj/10103/1.md loj-10103
+128: loj/10104/1.md loj-10104
+129: loj/10105/1.md loj-10105
+130: loj/10114/1.md loj-10114
+131: loj/10115/1.md loj-10115
+132: loj/10116/1.md loj-10116
+133: loj/10117/1.md loj-10117
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10118/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10118/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10118/1.md'
+}
+134: loj/10118/1.md loj-10118
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10118/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10118/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10118/1.md'
+}
+135: loj/10119/1.md loj-10119
+136: loj/10120/1.md loj-10120
+137: loj/10121/1.md loj-10121
+138: loj/10122/1.md loj-10122
+139: loj/10123/1.md loj-10123
+140: loj/10127/1.md loj-10127
+141: loj/10128/1.md loj-10128
+142: loj/10129/1.md loj-10129
+143: loj/10130/1.md loj-10130
+144: loj/10131/1.md loj-10131
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10133/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10133/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10133/1.md'
+}
+145: loj/10133/1.md loj-10133
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10133/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10133/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10133/1.md'
+}
+146: loj/10134/1.md loj-10134
+147: loj/10135/1.md loj-10135
+148: loj/10136/1.md loj-10136
+149: loj/10138/1.md loj-10138
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10140/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10140/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10140/1.md'
+}
+150: loj/10140/1.md loj-10140
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10140/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10140/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10140/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10141/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10141/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10141/1.md'
+}
+151: loj/10141/1.md loj-10141
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10141/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10141/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10141/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10142/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10142/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10142/1.md'
+}
+152: loj/10142/1.md loj-10142
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10142/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10142/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10142/1.md'
+}
+153: loj/10147/1.md loj-10147
+154: loj/10148/1.md loj-10148
+155: loj/10150/1.md loj-10150
+156: loj/10151/1.md loj-10151
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10152/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10152/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10152/1.md'
+}
+157: loj/10152/1.md loj-10152
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10152/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10152/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10152/1.md'
+}
+158: loj/10153/1.md loj-10153
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10154/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10154/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10154/1.md'
+}
+159: loj/10154/1.md loj-10154
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10154/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10154/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10154/1.md'
+}
+160: loj/10155/1.md loj-10155
+161: loj/10156/1.md loj-10156
+LaTeX-incompatible input and strict mode is set to 'warn': In LaTeX, \\ or \newline does nothing in display mode [newLineInDisplayMode]
+LaTeX-incompatible input and strict mode is set to 'warn': In LaTeX, \\ or \newline does nothing in display mode [newLineInDisplayMode]
+162: loj/10157/1.md loj-10157
+163: loj/10158/1.md loj-10158
+164: loj/10159/1.md loj-10159
+165: loj/10160/1.md loj-10160
+166: loj/10161/1.md loj-10161
+167: loj/10162/1.md loj-10160
+168: loj/10163/1.md loj-10163
+169: loj/10164/1.md loj-10164
+170: loj/10165/1.md loj-10165
+171: loj/10166/1.md loj-10166
+172: loj/10167/1.md loj-10167
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10168/1.md:31
+    29| 
+    30| ```c
+ >> 31| <%- include("1.cpp") %>
+    32| ```
+    33| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10168/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10168/1.md'
+}
+173: loj/10168/1.md loj-10168
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10168/1.md:31
+    29| 
+    30| ```c
+ >> 31| <%- include("1.cpp") %>
+    32| ```
+    33| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10168/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10168/1.md'
+}
+174: loj/10169/1.md loj-10169
+175: loj/10184/1.md loj-10184
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "＝" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "＝" used in math mode [unicodeTextInMathMode]
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10185/1.md:26
+    24| 
+    25| ```c
+ >> 26| <%- include("1.cpp") %>
+    27| ```
+    28| 
+    29| ## 参考
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10185/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10185/1.md'
+}
+176: loj/10185/1.md loj-10185
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10185/1.md:26
+    24| 
+    25| ```c
+ >> 26| <%- include("1.cpp") %>
+    27| ```
+    28| 
+    29| ## 参考
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10185/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10185/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10186/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10186/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10186/1.md'
+}
+177: loj/10186/1.md loj-10186
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10186/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10186/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10186/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10187/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10187/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10187/1.md'
+}
+178: loj/10187/1.md loj-10187
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10187/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10187/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10187/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10188/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10188/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10188/1.md'
+}
+179: loj/10188/1.md loj-10188
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10188/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10188/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10188/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10189/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10189/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10189/1.md'
+}
+180: loj/10189/1.md loj-10189
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10189/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10189/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10189/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10190/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10190/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10190/1.md'
+}
+181: loj/10190/1.md loj-10190
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10190/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10190/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10190/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10191/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10191/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10191/1.md'
+}
+182: loj/10191/1.md loj-10191
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10191/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10191/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10191/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10192/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10192/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10192/1.md'
+}
+183: loj/10192/1.md loj-10192
+Error: /home/rainboy/mycode/rbookr/pcs/loj/10192/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/10192/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/10192/1.md'
+}
+184: loj/10211/1.md loj-10211
+185: loj/10249/1.md loj-10249
+186: loj/103/1.md loj-103
+187: loj/130/1.md loj-130
+188: loj/132/1.md loj-132
+189: loj/133/1.md loj-133
+Error: /home/rainboy/mycode/rbookr/pcs/loj/134/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/134/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/134/1.md'
+}
+190: loj/134/1.md loj-134
+Error: /home/rainboy/mycode/rbookr/pcs/loj/134/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/134/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/134/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/loj/135/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/135/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/135/1.md'
+}
+191: loj/135/1.md loj-135
+Error: /home/rainboy/mycode/rbookr/pcs/loj/135/1.md:25
+    23| 
+    24| ```c
+ >> 25| <%- include("1.cpp") %>
+    26| ```
+    27| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/loj/135/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/loj/135/1.md'
+}
+192: loj/146/1.md loj-146
+193: loj/2125/1.md loj-2125
+194: loj/2130/1.md loj-2130
+195: loj/2427/1.md loj-2427
+196: loj/2436/1.md loj-2436
+197: loj/2590/1.md loj-2590
+198: loj/2591/1.md loj-2591
+199: loj/2632/1.md loj-2632
+200: loj/2653/1.md loj-2653
+201: loj/2823/1.md loj-2823
+202: loj/5728/1.md luogu-P5728
+203: loj/6000/1.md loj-6000
+204: loj/6121/1.md loj-6121
+205: luogu/1000/P1000_超级玛丽游戏.md luogu-P1000
+206: luogu/1001/1.md luogu-P1001
+207: luogu/1002/1.md luogu-P1002
+208: luogu/1003/1.md luogu-P1003
+209: luogu/1008/P1008_三连击.md luogu-P1008
+210: luogu/1010/1.md luogu-P1010
+211: luogu/1012/1.md luogu-P1012
+212: luogu/1014/P1014 Cantor表.md luogu-P1014
+213: luogu/1017/1.md luogu-P1017
+214: luogu/1022/P1022 计算器的改良.md luogu-P1022
+215: luogu/1023/1.md luogu-P1023
+216: luogu/1025/1.md luogu-P1025
+217: luogu/1026/1.md luogu-P1026
+218: luogu/1028/P1028_数的计算.md luogu-P1028
+219: luogu/1029/1.md luogu-P1029
+220: luogu/1031/1.md luogu-P1031
+221: luogu/1035/P1035_级数求和.md luogu-P1035
+222: luogu/1036/1.md luogu-P1036
+223: luogu/1038/1.md luogu-P1038
+224: luogu/1042/1.md luogu-P1042
+225: luogu/1043/1.md luogu-P1043
+226: luogu/1045/1.md luogu-P1045
+227: luogu/1046/P1046_陶陶摘苹果.md luogu-P1046
+228: luogu/1047/P1047_校门外的树.md luogu-P1047
+229: luogu/1048/1.md luogu-P1048
+230: luogu/1049/1.md luogu-P1049
+231: luogu/1052/1.md luogu-P1052
+232: luogu/1055/1.md luogu-P1055
+233: luogu/1056/1.md luogu-P1056
+234: luogu/1057/1.md luogu-P1057
+235: luogu/1059/1.md luogu-P1059
+236: luogu/1063/1.md luogu-P1063
+237: luogu/1064/1.md luogu-P1064
+238: luogu/1067/1.md luogu-P1067
+239: luogu/1075/1.md luogu-P1075
+240: luogu/1076/1.md luogu-P1076
+241: luogu/1077/1.md luogu-P1077
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/1080/1.md:105
+    103| 
+    104| ```c
+ >> 105| <%- include("1.cpp") %>
+    106| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/1080/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/1080/1.md'
+}
+242: luogu/1080/1.md luogu-P1080
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/1080/1.md:105
+    103| 
+    104| ```c
+ >> 105| <%- include("1.cpp") %>
+    106| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/1080/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/1080/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/1081/1.md:187
+    185| 
+    186| ```c
+ >> 187| <%- include("1.cpp") %>
+    188| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/1081/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/1081/1.md'
+}
+243: luogu/1081/1.md luogu-P1081
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/1081/1.md:187
+    185| 
+    186| ```c
+ >> 187| <%- include("1.cpp") %>
+    188| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/1081/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/1081/1.md'
+}
+244: luogu/1082/1.md luogu-P1082
+245: luogu/1085/P1085_不高兴的津津.md luogu-P1085
+246: luogu/1086/1.md luogu-P1086
+247: luogu/1087/1.md luogu-P1087
+248: luogu/1088/1.md luogu-P1088
+249: luogu/1089/P1089_津津的储蓄计划.md luogu-P1089
+250: luogu/1095/1.md luogu-P1095
+251: luogu/1097/1.md luogu-P1097
+252: luogu/1098/1.md luogu-P1098
+253: luogu/1106/1.md luogu-P1106
+254: luogu/1115/1.md luogu-P1115
+255: luogu/1116/1.md luogu-P1116
+256: luogu/1118/1.md luogu-P1118
+257: luogu/1120/1.md luogu-P1120
+258: luogu/1134/1.md luogu-P1134
+259: luogu/1135/1.md luogu-P1135
+260: luogu/1140/1.md luogu-P1140
+261: luogu/1147/1.md luogu-P1147
+262: luogu/1149/P1149_火柴棒等式.md luogu-P1149
+263: luogu/1151/1.md luogu-P1151
+264: luogu/1156/1.md luogu-P1156
+265: luogu/1160/1.md luogu-P1160
+266: luogu/1164/1.md luogu-P1164
+267: luogu/1179/1.md luogu-P1179
+268: luogu/1181/1.md luogu-P1181
+269: luogu/1182/1.md luogu-P1182
+270: luogu/1190/1.md luogu-P1190
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "名" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "同" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "学" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "准" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "备" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "接" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "水" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "他" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "们" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "的" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "初" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "始" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "接" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "水" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "顺" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "序" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "已" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "经" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "确" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "定" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "。" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "将" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "这" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "些" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "同" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "学" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "按" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "接" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "水" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "顺" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "序" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "从" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "编" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "号" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "号" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "同" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "学" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "的" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "接" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "水" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "量" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "为" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "完" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "成" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "其" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "接" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "水" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "量" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "要" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "求" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "后" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "下" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "一" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "名" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "排" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "队" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "等" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "候" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "接" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "水" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "的" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "同" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "学" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "每" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "两" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "个" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "整" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "数" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "之" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "间" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "用" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "一" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "个" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "空" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "格" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "隔" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "开" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "表" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "示" used in math mode [unicodeTextInMathMode]
+271: luogu/1192/1.md luogu-P1192
+272: luogu/1196/1.md 0a05cd9fb0
+273: luogu/1199/1.md luogu-P1199
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "号" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "武" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "将" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "和" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "的" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "数" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "据" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "有" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "的" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "数" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "据" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "有" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': % comment has no terminating newline; LaTeX would fail because of commenting the end of math mode (e.g. $) [commentAtEnd]
+274: luogu/1200/P1200_[USACO1.1]你的飞碟在这儿Your_Ride_Is_Here.md luogu-P1200
+275: luogu/1201/1.md luogu-P1201
+276: luogu/1203/1.md luogu-P1203
+277: luogu/1216/1.md luogu-P1216
+278: luogu/1217/P1217_[USACO1.5]回文质数_Prime_Palindromes.md luogu-P1217
+279: luogu/1223/1.md luogu-P1223
+280: luogu/1226/1.md luogu-P1226
+281: luogu/1233/1.md luogu-P1233
+282: luogu/1255/1.md luogu-P1255
+283: luogu/1290/1.md luogu-P1290
+284: luogu/1303/1.md luogu-P1303
+285: luogu/1305/1.md luogu-P1305
+286: luogu/1307/1.md luogu-P1307
+287: luogu/1308/1.md luogu-P1308
+288: luogu/1309/1.md luogu-P1309
+289: luogu/1311/1.md luogu-P1311
+290: luogu/1314/1.md 3569fb0726
+291: luogu/1323/1.md luogu-P1323
+292: luogu/1328/1.md luogu-P1328
+293: luogu/1338/1.md luogu-P1338
+294: luogu/1339/1.md luogu-P1339
+295: luogu/1351/1.md luogu-P1351
+296: luogu/1363/1.md luogu-P1363
+297: luogu/1379/1.md 79fa55c9d7
+298: luogu/1387/1.md luogu-P1387
+299: luogu/1403/1.md luogu-P1403
+300: luogu/1414/1.md luogu-P1414
+301: luogu/1421/P1421_小玉买文具.md luogu-P1421
+302: luogu/1422/P1422_小玉家的电费.md luogu-P1422
+303: luogu/1423/P1423_小玉在游泳.md luogu-P1423
+304: luogu/1424/P1424_小鱼的航程(改进版).md luogu-P1424
+305: luogu/1425/P1425_小鱼的游泳时间.md luogu-P1425
+306: luogu/1426/P1426 小鱼会有危险吗.md luogu-P1426
+307: luogu/1427/P1427_小鱼的数字游戏.md luogu-P1427
+308: luogu/1428/P1428_小鱼比可爱.md luogu-P1428
+309: luogu/1433/1.md luogu-P1433
+310: luogu/1434/1.md luogu-P1434
+311: luogu/1443/1.md luogu-P1443
+312: luogu/1449/1.md luogu-P1449
+313: luogu/1464/P1464 Function.md luogu-P1464
+314: luogu/1466/1.md luogu-P1466
+315: luogu/1478/1.md luogu-P1478
+316: luogu/1495/1.md luogu-P1495
+317: luogu/1498/1.md luogu-P1498
+318: luogu/1508/1.md luogu-P1508
+319: luogu/1510/1.md luogu-P1510
+320: luogu/1514/1.md luogu-P1514
+321: luogu/1516/1.md luogu-P1516
+322: luogu/1525/1.md luogu-P1525
+323: luogu/1538/1.md luogu-P1538
+324: luogu/1540/1.md luogu-P1540
+325: luogu/1541/1.md luogu-P1541
+326: luogu/1553/P1553_数字反转（升级版）.md luogu-P1553
+327: luogu/1563/1.md luogu-P1563
+328: luogu/1567/P1567_统计天数.md luogu-P1567
+329: luogu/1579/P1579 哥德巴赫猜想（升级版）.md luogu-P1579
+330: luogu/1582/1.md luogu-P1582
+331: luogu/1598/P1598_垂直柱状图.md luogu-P1598
+332: luogu/1600/1.md luogu-P1600
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/1601/1.md:62
+    60| 
+    61| ```c
+ >> 62| <%- include("1.cpp") %>
+    63| ```
+    64| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/1601/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/1601/1.md'
+}
+333: luogu/1601/1.md luogu-P1601
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/1601/1.md:62
+    60| 
+    61| ```c
+ >> 62| <%- include("1.cpp") %>
+    63| ```
+    64| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/1601/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/1601/1.md'
+}
+334: luogu/1603/1.md luogu-P1603
+335: luogu/1613/1.md luogu-P1613
+336: luogu/1618/P1618 三连击（升级版）.md luogu-P1618
+337: luogu/1626/1.md luogu-P1626
+338: luogu/1629/1.md luogu-P1629
+339: luogu/1644/1.md luogu-P1644
+340: luogu/1717/1.md luogu-P1717
+341: luogu/1732/1.md luogu-P1372
+342: luogu/1734/1.md luogu-P1734
+343: luogu/1736/1.md luogu-P1736
+344: luogu/1739/1.md luogu-P1739
+345: luogu/1757/1.md luogu-P1757
+346: luogu/1802/1.md luogu-P1802
+347: luogu/1803/1.md luogu-P1803
+348: luogu/1825/1.md luogu-P1825
+349: luogu/1853/1.md luogu-P1853
+350: luogu/1865/1.md luogu-P1865
+351: luogu/1880/1.md luogu-P1880
+352: luogu/1886/1.md luogu-P1886
+353: luogu/1908/1.md luogu-P1908
+354: luogu/1909/1.md luogu-P1909
+355: luogu/1914/P1914_小书童——密码.md luogu-P1914
+356: luogu/1926/1.md luogu-P1926
+357: luogu/1941/1.md luogu-P1941
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/1965/1.md:69
+    67| 
+    68| ```c
+ >> 69| <%- include("1.cpp") %>
+    70| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/1965/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/1965/1.md'
+}
+358: luogu/1965/1.md luogu-P1965
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/1965/1.md:69
+    67| 
+    68| ```c
+ >> 69| <%- include("1.cpp") %>
+    70| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/1965/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/1965/1.md'
+}
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "行" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "包" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "含" used in math mode [unicodeTextInMathMode]
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/1966/1.md:95
+    93| 
+    94| ```c
+ >> 95| <%- include("1.cpp") %>
+    96| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/1966/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/1966/1.md'
+}
+359: luogu/1966/1.md luogu-P1966
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/1966/1.md:95
+    93| 
+    94| ```c
+ >> 95| <%- include("1.cpp") %>
+    96| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/1966/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/1966/1.md'
+}
+360: luogu/1969/1.md luogu-P1969
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+361: luogu/1980/1.md luogu-P1980
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "共" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "出" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "现" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "了" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "多" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "少" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "次" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "？" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "例" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "如" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "在" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "中" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "即" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "在" used in math mode [unicodeTextInMathMode]
+362: luogu/1981/1.md luogu-P1981
+LaTeX-incompatible input and strict mode is set to 'warn': Unrecognized Unicode character "”" (8221) [unknownSymbol]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "且" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "没" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "有" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "括" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "号" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "所" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "有" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "参" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "与" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "运" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "算" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "的" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "数" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "字" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "均" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "为" used in math mode [unicodeTextInMathMode]
+363: luogu/1982/1.md luogu-P1982
+364: luogu/1983/1.md luogu-P1983
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "趟" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "车" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "次" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "的" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "运" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "行" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "情" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "况" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "。" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "其" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "中" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "前" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': % comment has no terminating newline; LaTeX would fail because of commenting the end of math mode (e.g. $) [commentAtEnd]
+365: luogu/1996/1.md luogu-P1996
+366: luogu/2010/1.md luogu-P2010
+367: luogu/2015/1.md luogu-P2015
+LaTeX-incompatible input and strict mode is set to 'warn': In LaTeX, \\ or \newline does nothing in display mode [newLineInDisplayMode]
+368: luogu/2058/1.md luogu-P2058
+369: luogu/2089/P2089 烤鸡.md luogu-P2089
+370: luogu/2118/1.md luogu-P2118
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "且" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unrecognized Unicode character "’" (8217) [unknownSymbol]
+LaTeX-incompatible input and strict mode is set to 'warn': Unrecognized Unicode character "’" (8217) [unknownSymbol]
+371: luogu/2119/1.md luogu-P2119
+372: luogu/2141/1.md luogu-P2141
+373: luogu/2149/1.md luogu-P2149
+374: luogu/2158/1.md luogu-P2158
+375: luogu/2181/1.md luogu-P2181
+376: luogu/2196/1.md luogu-P2196
+377: luogu/2239/1.md luogu-P2239
+378: luogu/2256/1.md luogu-P2256
+379: luogu/2324/1.md luogu-P2324
+380: luogu/2327/1.md luogu-P2327
+381: luogu/2370/1.md luogu-P2370
+382: luogu/2392/1.md luogu-P2392
+383: luogu/2419/1.md f3cdba8ab3
+384: luogu/2433/1.md luogu-P2433
+385: luogu/2596/1.md luogu-P2596
+386: luogu/2669/1.md luogu-P2669
+387: luogu/2670/1.md luogu-P2670
+388: luogu/2671/1.md luogu-P2671
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "组" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "数" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "据" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+389: luogu/2672/1.md luogu-P2672
+390: luogu/2678/1.md luogu-P2678
+391: luogu/2679/1.md luogu-P2679
+392: luogu/2740/1.md luogu-P2740
+393: luogu/2822/1.md luogu-P2822
+394: luogu/2895/1.md luogu-P2895
+395: luogu/2925/1.md luogu-P2925
+396: luogu/2938/1.md luogu-P2938
+397: luogu/2979/1.md luogu-P2979
+398: luogu/3195/1.md luogu-P3195
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/3295/1.md:66
+    64| 
+    65| ```c
+ >> 66| <%- include("1.cpp") %>
+    67| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/3295/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/3295/1.md'
+}
+399: luogu/3295/1.md luogu-P3295
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/3295/1.md:66
+    64| 
+    65| ```c
+ >> 66| <%- include("1.cpp") %>
+    67| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/3295/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/3295/1.md'
+}
+400: luogu/3367/1.md luogu-P3367
+401: luogu/3368/1.md luogu-P3368
+402: luogu/3369/1.md aa0187c40a
+403: luogu/3372/1.md luogu-P3372
+404: luogu/3373/1.md luogu-P3373
+405: luogu/3374/1.md luogu-P3374
+406: luogu/3383/1.md luogu-P3383
+407: luogu/3402/1.md 5b1407be16
+408: luogu/3810/1.md luoguP3810
+409: luogu/3811/1.md luogu-P3811
+410: luogu/3834/1.md 99e46678d7
+411: luogu/3916/1.md luogu-P3916
+412: luogu/3919/1.md 3ff634a3d9
+413: luogu/3952/1.md luogu-P3952
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/3953/1.md:132
+    130| 
+    131| ```c
+ >> 132| <%- include("1.cpp") %>
+    133| ```
+    134| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/3953/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/3953/1.md'
+}
+414: luogu/3953/1.md luogu-P3953
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/3953/1.md:132
+    130| 
+    131| ```c
+ >> 132| <%- include("1.cpp") %>
+    133| ```
+    134| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/3953/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/3953/1.md'
+}
+415: luogu/3954/1.md luogu-P3954
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "小" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "测" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "成" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "绩" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "期" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "末" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "考" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "试" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "成" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "绩" used in math mode [unicodeTextInMathMode]
+416: luogu/3955/1.md luogu-P3955
+417: luogu/3956/1.md luogu-P3956
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "行" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "每" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "行" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "三" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "个" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "正" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "整" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "数" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "，" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "分" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "别" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "表" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "示" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "坐" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "标" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "为" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "的" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "格" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "子" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "有" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "颜" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "色" used in math mode [unicodeTextInMathMode]
+418: luogu/3957/1.md luogu-P3957
+419: luogu/3959/1.md luogu-P3959
+Language does not exist: math
+420: luogu/4017/1.md luogu-P4017
+LaTeX-incompatible input and strict mode is set to 'warn': Unicode text character "、" used in math mode [unicodeTextInMathMode]
+421: luogu/4141/1.md luogu-P4141
+422: luogu/4513/1.md luogu-P4513
+423: luogu/5015/1.md luogu-P5015
+424: luogu/5016/1.md luogu-P5016
+425: luogu/5017/1.md luogu-P5017
+426: luogu/5018/1.md luogu-P5018
+427: luogu/5019/1.md luogu-P5019
+428: luogu/5020/1.md luogu-P5020
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/5021/1.md:129
+    127| 
+    128| ```c
+ >> 129| <%- include("1.cpp") %>
+    130| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/5021/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/5021/1.md'
+}
+429: luogu/5021/1.md luogu-P5021
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/5021/1.md:129
+    127| 
+    128| ```c
+ >> 129| <%- include("1.cpp") %>
+    130| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/5021/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/5021/1.md'
+}
+430: luogu/5318/1.md luogu-P5318
+431: luogu/5660/1.md luogu-P5660
+432: luogu/5661/1.md luogu-P5661
+433: luogu/5662/1.md luogu-P5662
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/5663/1.md:135
+    133| 
+    134| ```c
+ >> 135| <%- include("1.cpp") %>
+    136| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/5663/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/5663/1.md'
+}
+434: luogu/5663/1.md luogu-P5663
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/5663/1.md:135
+    133| 
+    134| ```c
+ >> 135| <%- include("1.cpp") %>
+    136| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/5663/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/5663/1.md'
+}
+435: luogu/5703/1.md luogu-P5703
+436: luogu/5704/1.md luogu-P5704
+437: luogu/5705/1.md luogu-P5705
+438: luogu/5706/1.md luogu-P5706
+439: luogu/5708/1.md luogu-P5708
+440: luogu/5709/1.md luogu-P5709
+441: luogu/5719/1.md luogu-P5719
+442: luogu/5788/1.md luogu-P5788
+443: luogu/5886/1.md luogu-P5886
+444: luogu/5887/1.md luogu-P5887
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/5889/1.md:28
+    26| 
+    27| ```c
+ >> 28| <%- include("1.cpp") %>
+    29| ```
+    30| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/5889/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/5889/1.md'
+}
+445: luogu/5889/1.md luogu-P5889
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/5889/1.md:28
+    26| 
+    27| ```c
+ >> 28| <%- include("1.cpp") %>
+    29| ```
+    30| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/5889/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/5889/1.md'
+}
+446: luogu/6582/1.md luogu-P6582
+447: luogu/6583/1.md luogu-P6583
+448: luogu/7071/1.md luogu-P7071
+449: luogu/7072/1.md luogu-P7072
+450: luogu/7073/1.md luogu-P7073
+451: luogu/7074/1.md luogu-P7074
+452: luogu/7911/1.md luogu-P7911
+453: luogu/8813/1.md luogu-P8813
+454: luogu/8814/1.md luogu-P8814
+455: luogu/8815/1.md luogu-P8815
+456: luogu/8816/1.md luogu-P8816
+457: luogu/CF865D/1.md luogu-CF865D
+458: luogu/u41492/1.md luogu-u41492
+459: noiOpenJudge/1.1/1.md noiOpenJudge-1.1-1
+460: noiOpenJudge/1.1/10.md noiOpenJudge-1.1-10
+461: noiOpenJudge/1.1/2.md noiOpenJudge-1.1-2
+462: noiOpenJudge/1.1/3.md noiOpenJudge-1.1-3
+463: noiOpenJudge/1.1/4.md noiOpenJudge-1.1-4
+464: noiOpenJudge/1.1/5.md noiOpenJudge-1.1-5
+465: noiOpenJudge/1.1/6.md noiOpenJudge-1.1-6
+466: noiOpenJudge/1.1/7.md noiOpenJudge-1.1-7
+467: noiOpenJudge/1.1/8.md noiOpenJudge-1.1-8
+468: noiOpenJudge/1.1/9.md noiOpenJudge-1.1-9
+469: noiOpenJudge/1.10/1.md noiOpenJudge-1.10-1
+470: noiOpenJudge/1.10/10.md noiOpenJudge-1.10-10
+471: noiOpenJudge/1.10/2.md noiOpenJudge-1.10-2
+472: noiOpenJudge/1.10/3.md noiOpenJudge-1.10-3
+473: noiOpenJudge/1.10/4.md noiOpenJudge-1.10-4
+474: noiOpenJudge/1.10/5.md noiOpenJudge-1.10-5
+475: noiOpenJudge/1.10/6.md noiOpenJudge-1.10-6
+476: noiOpenJudge/1.10/7.md noiOpenJudge-1.10-7
+477: noiOpenJudge/1.10/8.md noiOpenJudge-1.10-8
+478: noiOpenJudge/1.10/9.md noiOpenJudge-1.10-9
+479: noiOpenJudge/1.11/1.md noiOpenJudge-1.11-1
+480: noiOpenJudge/1.11/10.md noiOpenJudge-1.11-10
+481: noiOpenJudge/1.11/2.md noiOpenJudge-1.11-2
+482: noiOpenJudge/1.11/3.md noiOpenJudge-1.11-3
+483: noiOpenJudge/1.11/4.md noiOpenJudge-1.11-4
+484: noiOpenJudge/1.11/5.md noiOpenJudge-1.11-5
+485: noiOpenJudge/1.11/6.md noiOpenJudge-1.11-6
+486: noiOpenJudge/1.11/7.md noiOpenJudge-1.11-7
+487: noiOpenJudge/1.11/8.md noiOpenJudge-1.11-8
+488: noiOpenJudge/1.11/9.md noiOpenJudge-1.11-9
+489: noiOpenJudge/1.12/1.md noiOpenJudge-1.12-1
+490: noiOpenJudge/1.12/10.md noiOpenJudge-1.12-10
+491: noiOpenJudge/1.12/2.md noiOpenJudge-1.12-2
+492: noiOpenJudge/1.12/3.md noiOpenJudge-1.12-3
+493: noiOpenJudge/1.12/4.md noiOpenJudge-1.12-4
+494: noiOpenJudge/1.12/5.md noiOpenJudge-1.12-5
+495: noiOpenJudge/1.12/6.md noiOpenJudge-1.12-6
+496: noiOpenJudge/1.12/7.md noiOpenJudge-1.12-7
+497: noiOpenJudge/1.12/8.md noiOpenJudge-1.12-8
+498: noiOpenJudge/1.12/9.md noiOpenJudge-1.12-9
+499: noiOpenJudge/1.2/1.md noiOpenJudge-1.2-1
+500: noiOpenJudge/1.2/10.md noiOpenJudge-1.2-10
+501: noiOpenJudge/1.2/2.md noiOpenJudge-1.2-2
+502: noiOpenJudge/1.2/3.md noiOpenJudge-1.2-3
+503: noiOpenJudge/1.2/4.md noiOpenJudge-1.2-4
+504: noiOpenJudge/1.2/5.md noiOpenJudge-1.2-5
+505: noiOpenJudge/1.2/6.md noiOpenJudge-1.2-6
+506: noiOpenJudge/1.2/7.md noiOpenJudge-1.2-7
+507: noiOpenJudge/1.2/8.md noiOpenJudge-1.2-8
+508: noiOpenJudge/1.2/9.md noiOpenJudge-1.2-9
+509: noiOpenJudge/1.3/1.md noiOpenJudge-1.3-1
+510: noiOpenJudge/1.3/10.md noiOpenJudge-1.3-10
+511: noiOpenJudge/1.3/11.md noiOpenJudge-1.3-11
+512: noiOpenJudge/1.3/12.md noiOpenJudge-1.3-12
+513: noiOpenJudge/1.3/13.md noiOpenJudge-1.3-13
+514: noiOpenJudge/1.3/14.md noiOpenJudge-1.3-14
+515: noiOpenJudge/1.3/15.md noiOpenJudge-1.3-15
+516: noiOpenJudge/1.3/16.md noiOpenJudge-1.3-16
+517: noiOpenJudge/1.3/17.md noiOpenJudge-1.3-17
+518: noiOpenJudge/1.3/18.md noiOpenJudge-1.3-18
+519: noiOpenJudge/1.3/19.md noiOpenJudge-1.3-19
+520: noiOpenJudge/1.3/2.md noiOpenJudge-1.3-2
+521: noiOpenJudge/1.3/20.md noiOpenJudge-1.3-20
+522: noiOpenJudge/1.3/3.md noiOpenJudge-1.3-3
+523: noiOpenJudge/1.3/4.md noiOpenJudge-1.3-4
+524: noiOpenJudge/1.3/5.md noiOpenJudge-1.3-5
+525: noiOpenJudge/1.3/6.md noiOpenJudge-1.3-6
+526: noiOpenJudge/1.3/7.md noiOpenJudge-1.3-7
+527: noiOpenJudge/1.3/8.md noiOpenJudge-1.3-8
+528: noiOpenJudge/1.3/9.md noiOpenJudge-1.3-9
+529: noiOpenJudge/1.4/1.md noiOpenJudge-1.4-1
+530: noiOpenJudge/1.4/10.md noiOpenJudge-1.4-10
+531: noiOpenJudge/1.4/11.md noiOpenJudge-1.4-11
+532: noiOpenJudge/1.4/12.md noiOpenJudge-1.4-12
+533: noiOpenJudge/1.4/13.md noiOpenJudge-1.4-13
+534: noiOpenJudge/1.4/14.md noiOpenJudge-1.4-14
+535: noiOpenJudge/1.4/15.md noiOpenJudge-1.4-15
+536: noiOpenJudge/1.4/16.md noiOpenJudge-1.4-16
+537: noiOpenJudge/1.4/17.md noiOpenJudge-1.4-17
+538: noiOpenJudge/1.4/18.md noiOpenJudge-1.4-18
+539: noiOpenJudge/1.4/19.md noiOpenJudge-1.4-19
+540: noiOpenJudge/1.4/2.md noiOpenJudge-1.4-2
+541: noiOpenJudge/1.4/20.md noiOpenJudge-1.4-20
+542: noiOpenJudge/1.4/21.md noiOpenJudge-1.4-21
+543: noiOpenJudge/1.4/3.md noiOpenJudge-1.4-3
+544: noiOpenJudge/1.4/4.md noiOpenJudge-1.4-4
+545: noiOpenJudge/1.4/5.md noiOpenJudge-1.4-5
+546: noiOpenJudge/1.4/6.md noiOpenJudge-1.4-6
+547: noiOpenJudge/1.4/7.md noiOpenJudge-1.4-7
+548: noiOpenJudge/1.4/8.md noiOpenJudge-1.4-8
+549: noiOpenJudge/1.4/9.md noiOpenJudge-1.4-9
+550: noiOpenJudge/1.5/1.md noiOpenJudge-1.5-1
+551: noiOpenJudge/1.5/10.md noiOpenJudge-1.5-10
+552: noiOpenJudge/1.5/11.md noiOpenJudge-1.5-11
+553: noiOpenJudge/1.5/12.md noiOpenJudge-1.5-12
+554: noiOpenJudge/1.5/13.md noiOpenJudge-1.5-13
+555: noiOpenJudge/1.5/14.md noiOpenJudge-1.5-14
+556: noiOpenJudge/1.5/15.md noiOpenJudge-1.5-15
+557: noiOpenJudge/1.5/16.md noiOpenJudge-1.5-16
+558: noiOpenJudge/1.5/17.md noiOpenJudge-1.5-17
+559: noiOpenJudge/1.5/18.md noiOpenJudge-1.5-18
+560: noiOpenJudge/1.5/19.md noiOpenJudge-1.5-19
+561: noiOpenJudge/1.5/2.md noiOpenJudge-1.5-2
+562: noiOpenJudge/1.5/20.md noiOpenJudge-1.5-20
+563: noiOpenJudge/1.5/21.md noiOpenJudge-1.5-21
+564: noiOpenJudge/1.5/22.md noiOpenJudge-1.5-22
+565: noiOpenJudge/1.5/23.md noiOpenJudge-1.5-23
+566: noiOpenJudge/1.5/24.md noiOpenJudge-1.5-24
+567: noiOpenJudge/1.5/25.md noiOpenJudge-1.5-25
+568: noiOpenJudge/1.5/26.md noiOpenJudge-1.5-26
+569: noiOpenJudge/1.5/27.md noiOpenJudge-1.5-27
+570: noiOpenJudge/1.5/28.md noiOpenJudge-1.5-28
+571: noiOpenJudge/1.5/29.md noiOpenJudge-1.5-29
+572: noiOpenJudge/1.5/3.md noiOpenJudge-1.5-3
+573: noiOpenJudge/1.5/30.md noiOpenJudge-1.5-30
+574: noiOpenJudge/1.5/31.md noiOpenJudge-1.5-31
+575: noiOpenJudge/1.5/32.md noiOpenJudge-1.5-32
+576: noiOpenJudge/1.5/33.md noiOpenJudge-1.5-33
+577: noiOpenJudge/1.5/34.md noiOpenJudge-1.5-34
+578: noiOpenJudge/1.5/35.md noiOpenJudge-1.5-35
+579: noiOpenJudge/1.5/36.md noiOpenJudge-1.5-36
+580: noiOpenJudge/1.5/37.md noiOpenJudge-1.5-37
+581: noiOpenJudge/1.5/38.md noiOpenJudge-1.5-38
+582: noiOpenJudge/1.5/39.md noiOpenJudge-1.5-39
+583: noiOpenJudge/1.5/4.md noiOpenJudge-1.5-4
+584: noiOpenJudge/1.5/40.md noiOpenJudge-1.5-40
+585: noiOpenJudge/1.5/41.md noiOpenJudge-1.5-41
+586: noiOpenJudge/1.5/42.md noiOpenJudge-1.5-42
+587: noiOpenJudge/1.5/43.md noiOpenJudge-1.5-43
+588: noiOpenJudge/1.5/44.md noiOpenJudge-1.5-44
+589: noiOpenJudge/1.5/45.md noiOpenJudge-1.5-45
+590: noiOpenJudge/1.5/5.md noiOpenJudge-1.5-5
+591: noiOpenJudge/1.5/6.md noiOpenJudge-1.5-6
+592: noiOpenJudge/1.5/7.md noiOpenJudge-1.5-7
+593: noiOpenJudge/1.5/8.md noiOpenJudge-1.5-8
+594: noiOpenJudge/1.5/9.md noiOpenJudge-1.5-9
+595: noiOpenJudge/1.6/1.md noiOpenJudge-1.6-1
+596: noiOpenJudge/1.6/10.md noiOpenJudge-1.6-10
+597: noiOpenJudge/1.6/11.md noiOpenJudge-1.6-11
+598: noiOpenJudge/1.6/12.md noiOpenJudge-1.6-12
+599: noiOpenJudge/1.6/13.md noiOpenJudge-1.6-13
+600: noiOpenJudge/1.6/14.md noiOpenJudge-1.6-14
+601: noiOpenJudge/1.6/15.md noiOpenJudge-1.6-15
+602: noiOpenJudge/1.6/2.md noiOpenJudge-1.6-2
+603: noiOpenJudge/1.6/3.md noiOpenJudge-1.6-3
+604: noiOpenJudge/1.6/4.md noiOpenJudge-1.6-4
+605: noiOpenJudge/1.6/5.md noiOpenJudge-1.6-5
+606: noiOpenJudge/1.6/6.md noiOpenJudge-1.6-6
+607: noiOpenJudge/1.6/7.md noiOpenJudge-1.6-7
+608: noiOpenJudge/1.6/8.md noiOpenJudge-1.6-8
+609: noiOpenJudge/1.6/9.md noiOpenJudge-1.6-9
+610: noiOpenJudge/1.7/1.md noiOpenJudge-1.7-1
+611: noiOpenJudge/1.7/10.md noiOpenJudge-1.7-10
+612: noiOpenJudge/1.7/11.md noiOpenJudge-1.7-11
+613: noiOpenJudge/1.7/12.md noiOpenJudge-1.7-12
+614: noiOpenJudge/1.7/13.md noiOpenJudge-1.7-13
+615: noiOpenJudge/1.7/14.md noiOpenJudge-1.7-14
+616: noiOpenJudge/1.7/15.md noiOpenJudge-1.7-15
+617: noiOpenJudge/1.7/16.md noiOpenJudge-1.7-16
+618: noiOpenJudge/1.7/17.md noiOpenJudge-1.7-17
+619: noiOpenJudge/1.7/18.md noiOpenJudge-1.7-18
+620: noiOpenJudge/1.7/19.md noiOpenJudge-1.7-19
+621: noiOpenJudge/1.7/2.md noiOpenJudge-1.7-2
+622: noiOpenJudge/1.7/20.md noiOpenJudge-1.7-20
+623: noiOpenJudge/1.7/21.md noiOpenJudge-1.7-21
+624: noiOpenJudge/1.7/22.md noiOpenJudge-1.7-22
+625: noiOpenJudge/1.7/23.md noiOpenJudge-1.7-23
+626: noiOpenJudge/1.7/24.md noiOpenJudge-1.7-24
+627: noiOpenJudge/1.7/25.md noiOpenJudge-1.7-25
+628: noiOpenJudge/1.7/26.md noiOpenJudge-1.7-26
+629: noiOpenJudge/1.7/27.md noiOpenJudge-1.7-27
+630: noiOpenJudge/1.7/28.md noiOpenJudge-1.7-28
+631: noiOpenJudge/1.7/29.md noiOpenJudge-1.7-29
+632: noiOpenJudge/1.7/3.md noiOpenJudge-1.7-3
+633: noiOpenJudge/1.7/30.md noiOpenJudge-1.7-30
+634: noiOpenJudge/1.7/31.md noiOpenJudge-1.7-31
+635: noiOpenJudge/1.7/32.md noiOpenJudge-1.7-32
+636: noiOpenJudge/1.7/33.md noiOpenJudge-1.7-33
+637: noiOpenJudge/1.7/34.md noiOpenJudge-1.7-34
+638: noiOpenJudge/1.7/4.md noiOpenJudge-1.7-4
+639: noiOpenJudge/1.7/5.md noiOpenJudge-1.7-5
+640: noiOpenJudge/1.7/6.md noiOpenJudge-1.7-6
+641: noiOpenJudge/1.7/7.md noiOpenJudge-1.7-7
+642: noiOpenJudge/1.7/8.md noiOpenJudge-1.7-8
+643: noiOpenJudge/1.7/9.md noiOpenJudge-1.7-9
+644: noiOpenJudge/1.8/1.md noiOpenJudge-1.8-1
+645: noiOpenJudge/1.8/10.md noiOpenJudge-1.8-10
+646: noiOpenJudge/1.8/11.md noiOpenJudge-1.8-11
+647: noiOpenJudge/1.8/12.md noiOpenJudge-1.8-12
+648: noiOpenJudge/1.8/13.md noiOpenJudge-1.8-13
+649: noiOpenJudge/1.8/14.md noiOpenJudge-1.8-14
+650: noiOpenJudge/1.8/15.md noiOpenJudge-1.8-15
+651: noiOpenJudge/1.8/16.md noiOpenJudge-1.8-16
+652: noiOpenJudge/1.8/17.md noiOpenJudge-1.8-17
+653: noiOpenJudge/1.8/18.md noiOpenJudge-1.8-18
+654: noiOpenJudge/1.8/19.md noiOpenJudge-1.8-19
+655: noiOpenJudge/1.8/2.md noiOpenJudge-1.8-2
+656: noiOpenJudge/1.8/20.md noiOpenJudge-1.8-20
+657: noiOpenJudge/1.8/21.md noiOpenJudge-1.8-21
+658: noiOpenJudge/1.8/22.md noiOpenJudge-1.8-22
+659: noiOpenJudge/1.8/23.md noiOpenJudge-1.8-23
+660: noiOpenJudge/1.8/24.md noiOpenJudge-1.8-24
+661: noiOpenJudge/1.8/25.md noiOpenJudge-1.8-25
+662: noiOpenJudge/1.8/3.md noiOpenJudge-1.8-3
+663: noiOpenJudge/1.8/4.md noiOpenJudge-1.8-4
+664: noiOpenJudge/1.8/5.md noiOpenJudge-1.8-5
+665: noiOpenJudge/1.8/6.md noiOpenJudge-1.8-6
+666: noiOpenJudge/1.8/7.md noiOpenJudge-1.8-7
+667: noiOpenJudge/1.8/8.md noiOpenJudge-1.8-8
+668: noiOpenJudge/1.8/9.md noiOpenJudge-1.8-9
+669: noiOpenJudge/1.9/1.md noiOpenJudge-1.9-1
+670: noiOpenJudge/1.9/10.md noiOpenJudge-1.9-10
+671: noiOpenJudge/1.9/11.md noiOpenJudge-1.9-11
+672: noiOpenJudge/1.9/12.md noiOpenJudge-1.9-12
+673: noiOpenJudge/1.9/13.md noiOpenJudge-1.9-13
+674: noiOpenJudge/1.9/15.md noiOpenJudge-1.9-15
+675: noiOpenJudge/1.9/2.md noiOpenJudge-1.9-2
+676: noiOpenJudge/1.9/3.md noiOpenJudge-1.9-3
+677: noiOpenJudge/1.9/4.md noiOpenJudge-1.9-4
+678: noiOpenJudge/1.9/5.md noiOpenJudge-1.9-5
+679: noiOpenJudge/1.9/6.md noiOpenJudge-1.9-6
+680: noiOpenJudge/1.9/7.md noiOpenJudge-1.9-7
+681: noiOpenJudge/1.9/8.md noiOpenJudge-1.9-8
+682: noiOpenJudge/1.9/9.md noiOpenJudge-1.9-9
+683: noiOpenJudge/2.1/Bomb Game.md noiOpenJudge-2.1-Bomb_Game
+684: noiOpenJudge/2.1/Cantor表.md noiOpenJudge-2.1-Cantor表
+685: noiOpenJudge/2.1/Counterfeit Dollar.md noiOpenJudge-2.1-Counterfeit_Dollar
+686: noiOpenJudge/2.1/Flip Game.md noiOpenJudge-2.1-Flip_Game
+687: noiOpenJudge/2.1/Minecraft.md noiOpenJudge-2.1-Minecraft
+688: noiOpenJudge/2.1/Safecracker.md noiOpenJudge-2.1-Safecracker
+689: noiOpenJudge/2.1/三个三位数.md noiOpenJudge-2.1-三个三位数
+690: noiOpenJudge/2.1/不定方程求解.md noiOpenJudge-2.1-不定方程求解
+691: noiOpenJudge/2.1/两倍.md noiOpenJudge-2.1-两倍
+692: noiOpenJudge/2.1/五户共井问题.md noiOpenJudge-2.1-五户共井问题
+693: noiOpenJudge/2.1/余数相同问题.md noiOpenJudge-2.1-余数相同问题
+694: noiOpenJudge/2.1/最接近的分数.md noiOpenJudge-2.1-最接近的分数
+695: noiOpenJudge/2.1/最简真分数.md noiOpenJudge-2.1-最简真分数
+696: noiOpenJudge/2.1/和数.md noiOpenJudge-2.1-和数
+697: noiOpenJudge/2.1/因子问题.md noiOpenJudge-2.1-因子问题
+698: noiOpenJudge/2.1/垃圾炸弹.md noiOpenJudge-2.1-垃圾炸弹
+699: noiOpenJudge/2.1/子串计算.md noiOpenJudge-2.1-子串计算
+700: noiOpenJudge/2.1/完美立方.md noiOpenJudge-2.1-完美立方
+701: noiOpenJudge/2.1/我家的门牌号.md noiOpenJudge-2.1-我家的门牌号
+702: noiOpenJudge/2.1/找和为K的两个元素.md noiOpenJudge-2.1-找和为K的两个元素
+703: noiOpenJudge/2.1/拨钟问题.md noiOpenJudge-2.1-拨钟问题
+704: noiOpenJudge/2.1/数字方格.md noiOpenJudge-2.1-数字方格
+705: noiOpenJudge/2.1/比赛排名.md noiOpenJudge-2.1-比赛排名
+706: noiOpenJudge/2.1/比饭量.md noiOpenJudge-2.1-比饭量
+707: noiOpenJudge/2.1/满足条件的整数.md noiOpenJudge-2.1-满足条件的整数
+708: noiOpenJudge/2.1/火车上的人数.md noiOpenJudge-2.1-火车上的人数
+709: noiOpenJudge/2.1/熄灯问题.md noiOpenJudge-2.1-熄灯问题
+710: noiOpenJudge/2.1/猴子吃桃.md noiOpenJudge-2.1-猴子吃桃
+711: noiOpenJudge/2.1/生理周期.md noiOpenJudge-2.1-生理周期
+712: noiOpenJudge/2.1/画家问题.md noiOpenJudge-2.1-画家问题
+713: noiOpenJudge/2.1/砝码称重.md noiOpenJudge-2.1-砝码称重
+714: noiOpenJudge/2.1/硬币面值组合.md noiOpenJudge-2.1-硬币面值组合
+715: noiOpenJudge/2.1/确定进制.md noiOpenJudge-2.1-确定进制
+716: noiOpenJudge/2.1/称体重.md noiOpenJudge-2.1-称体重
+717: noiOpenJudge/2.1/谁是你的潜在朋友.md noiOpenJudge-2.1-谁是你的潜在朋友
+718: noiOpenJudge/2.1/质数的和与积.md noiOpenJudge-2.1-质数的和与积
+719: noiOpenJudge/2.1/鸡兔同笼.md noiOpenJudge-2.1-鸡兔同笼
+720: noiOpenJudge/2.2/1696.md noiOpenJudge-2.2-1696
+721: noiOpenJudge/2.2/1750.md noiOpenJudge-ch0202-1750
+722: noiOpenJudge/2.2/1751.md noiOpenJudge-2.2-1751
+723: noiOpenJudge/2.2/1755.md noiOpenJudge-ch0202-1755
+724: noiOpenJudge/2.2/3089.md noiOpenJudge-ch0202-3089
+725: noiOpenJudge/2.2/6261.md noiOpenJudge-ch0202-6261
+726: noiOpenJudge/2.2/666.md noiOpenJudge-ch0202-666
+727: noiOpenJudge/2.2/7592.md noiOpenJudge-ch0202-7592
+728: noiOpenJudge/2.2/8758.md noiOpenJudge-ch0202-8758
+729: noiOpenJudge/2.5/1159.md noiOpenJudge-ch0205-1159
+730: noiOpenJudge/2.5/1253.md noiOpenJudge-ch0205-1253
+731: noiOpenJudge/2.5/131.md noiOpenJudge-ch0205-131
+732: noiOpenJudge/2.5/1388.md noiOpenJudge-ch0205-1388
+733: noiOpenJudge/2.5/1490.md noiOpenJudge-ch0205-1490
+734: noiOpenJudge/2.5/156.md noiOpenJudge-ch0205-156
+735: noiOpenJudge/2.5/166.md noiOpenJudge-ch0205-166
+736: noiOpenJudge/2.5/1700.md noiOpenJudge-ch0205-1700
+737: noiOpenJudge/2.5/1756.md noiOpenJudge-ch0205-1756
+738: noiOpenJudge/2.5/1792.md noiOpenJudge-ch0205-1792
+739: noiOpenJudge/2.5/1817.md noiOpenJudge-ch0205-1817
+740: noiOpenJudge/2.5/2152.md noiOpenJudge-ch0205-2152
+741: noiOpenJudge/2.5/2727.md noiOpenJudge-ch0205-2727
+742: noiOpenJudge/2.5/2753.md noiOpenJudge-ch0205-2753
+743: noiOpenJudge/2.5/2971.md noiOpenJudge-ch0205-2971
+744: noiOpenJudge/2.5/2990.md noiOpenJudge-ch0205-2990
+745: noiOpenJudge/2.5/323.md noiOpenJudge-ch0205-323
+746: noiOpenJudge/2.5/6044.md noiOpenJudge-ch0205-6044
+747: noiOpenJudge/2.5/6264.md noiOpenJudge-ch0205-6264
+748: noiOpenJudge/2.5/6266.md noiOpenJudge-ch0205-6266
+749: noiOpenJudge/2.5/666.md noiOpenJudge-ch0205-666
+750: noiOpenJudge/2.5/7084.md noiOpenJudge-ch0205-7084
+751: noiOpenJudge/2.5/7218.md noiOpenJudge-ch0205-7218
+752: noiOpenJudge/2.5/7221.md noiOpenJudge-ch0205-7221
+753: noiOpenJudge/2.5/7834.md noiOpenJudge-ch0205-7834
+754: noiOpenJudge/2.5/8436.md noiOpenJudge-ch0205-8436
+755: noiOpenJudge/2.5/8465.md noiOpenJudge-ch0205-8465
+756: noiOpenJudge/2.5/8783.md noiOpenJudge-ch0205-8783
+757: noiOpenJudge/2.5/917.md noiOpenJudge-ch0205-917
+758: noiOpenJudge/2.6/1481.md noiOpenJudge-ch0206-1481
+759: noiOpenJudge/2.6/1759.md noiOpenJudge-ch0206-1759
+760: noiOpenJudge/2.6/1768.md noiOpenJudge-ch0206-1768
+761: noiOpenJudge/2.6/1775.md noiOpenJudge-ch0206-1775
+762: noiOpenJudge/2.6/1944.md noiOpenJudge-ch0206-1944
+763: noiOpenJudge/2.6/2985.md noiOpenJudge-ch0206-2985
+764: noiOpenJudge/2.6/2988.md 9596c20e8f4ec8cbdc552340666419b3
+765: noiOpenJudge/2.6/8462.md noiOpenJudge-ch0206-8462
+Error: /home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/1.md:14
+    12| 
+    13| ```c
+ >> 14| <%-include("1.cpp")%>
+    15| ```
+    16| 
+    17| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/1.md":12:16)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/1.md'
+}
+766: noiOpenJudge/3.9/1.md noiOpenJudge-3.9-1
+Error: /home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/1.md:14
+    12| 
+    13| ```c
+ >> 14| <%-include("1.cpp")%>
+    15| ```
+    16| 
+    17| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/1.md":12:16)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/2.md:14
+    12| 
+    13| ```c
+ >> 14| <%-include("2.cpp")%>
+    15| ```
+    16| 
+    17| 
+
+Could not find the include file "2.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/2.md":12:16)
+    at 2 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/2.md'
+}
+767: noiOpenJudge/3.9/2.md noiOpenJudge-3.9-2
+Error: /home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/2.md:14
+    12| 
+    13| ```c
+ >> 14| <%-include("2.cpp")%>
+    15| ```
+    16| 
+    17| 
+
+Could not find the include file "2.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/2.md":12:16)
+    at 2 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/2.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/3.md:14
+    12| 
+    13| ```c
+ >> 14| <%-include("3.cpp")%>
+    15| ```
+    16| 
+    17| 
+
+Could not find the include file "3.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/3.md":12:16)
+    at 3 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/3.md'
+}
+768: noiOpenJudge/3.9/3.md noiOpenJudge-3.9-3
+Error: /home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/3.md:14
+    12| 
+    13| ```c
+ >> 14| <%-include("3.cpp")%>
+    15| ```
+    16| 
+    17| 
+
+Could not find the include file "3.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/3.md":12:16)
+    at 3 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/3.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/4.md:14
+    12| 
+    13| ```c
+ >> 14| <%-include("4.cpp")%>
+    15| ```
+    16| 
+    17| 
+
+Could not find the include file "4.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/4.md":12:16)
+    at 4 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/4.md'
+}
+769: noiOpenJudge/3.9/4.md noiOpenJudge-3.9-4
+Error: /home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/4.md:14
+    12| 
+    13| ```c
+ >> 14| <%-include("4.cpp")%>
+    15| ```
+    16| 
+    17| 
+
+Could not find the include file "4.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/4.md":12:16)
+    at 4 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/4.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/5.md:14
+    12| 
+    13| ```c
+ >> 14| <%-include("5.cpp")%>
+    15| ```
+    16| 
+    17| 
+
+Could not find the include file "5.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/5.md":12:16)
+    at 5 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/5.md'
+}
+770: noiOpenJudge/3.9/5.md noiOpenJudge-3.9-5
+Error: /home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/5.md:14
+    12| 
+    13| ```c
+ >> 14| <%-include("5.cpp")%>
+    15| ```
+    16| 
+    17| 
+
+Could not find the include file "5.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/5.md":12:16)
+    at 5 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/5.md'
+}
+771: noiOpenJudge/3.9/6.md noiOpenJudge-3.9-6
+772: noiOpenJudge/3.9/7.md noiOpenJudge-3.9-7
+Error: /home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/8.md:14
+    12| 
+    13| ```c
+ >> 14| <%-include("8.cpp")%>
+    15| ```
+    16| 
+    17| 
+
+Could not find the include file "8.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/8.md":12:16)
+    at 8 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/8.md'
+}
+773: noiOpenJudge/3.9/8.md noiOpenJudge-3.9-8
+Error: /home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/8.md:14
+    12| 
+    13| ```c
+ >> 14| <%-include("8.cpp")%>
+    15| ```
+    16| 
+    17| 
+
+Could not find the include file "8.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/8.md":12:16)
+    at 8 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/8.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/9.md:14
+    12| 
+    13| ```c
+ >> 14| <%-include("9.cpp")%>
+    15| ```
+    16| 
+    17| 
+
+Could not find the include file "9.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/9.md":12:16)
+    at 9 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/9.md'
+}
+774: noiOpenJudge/3.9/9.md noiOpenJudge-3.9-9
+Error: /home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/9.md:14
+    12| 
+    13| ```c
+ >> 14| <%-include("9.cpp")%>
+    15| ```
+    16| 
+    17| 
+
+Could not find the include file "9.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/9.md":12:16)
+    at 9 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/noiOpenJudge/3.9/9.md'
+}
+775: noiOpenJudge/index.md noiOpenJudge
+Error: /home/rainboy/mycode/rbookr/pcs/poj/1700/1.md:32
+    30| 
+    31| ```c
+ >> 32| <%- include("1.cpp") %>
+    33| ```
+    34| 
+    35| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/poj/1700/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at file:///home/rainboy/mycode/rbookr/pcs/_src/lib/renderAll.js:35:29 {
+  path: '/home/rainboy/mycode/rbookr/pcs/poj/1700/1.md'
+}
+776: poj/1700/1.md 850a7f36a0
+Error: /home/rainboy/mycode/rbookr/pcs/poj/1700/1.md:32
+    30| 
+    31| ```c
+ >> 32| <%- include("1.cpp") %>
+    33| ```
+    34| 
+    35| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/poj/1700/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.md_render_with_yamlheader (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:153:27)
+    at _markdown.render_to_json_file (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:183:45) {
+  path: '/home/rainboy/mycode/rbookr/pcs/poj/1700/1.md'
+}
+777: poj/2155/1.md POJ-2155
+778: poj/2889/1.md poj-2889
+779: problemTranningSheet/luogu训练场/提高历练地.md 68d5ee27e0
+780: problemTranningSheet/luogu训练场/新手村.md 83b1362bcc
+781: problemTranningSheet/luogu训练场/普及练习场.md c568715a63
+782: problemTranningSheet/luogu训练场/省选斗兽场-NOI神殿.md d4ac168952
+783: problemTranningSheet/USACO训练题目.md 057a02eea4
+784: roj/1000/1.md roj-1000
+785: roj/1197/1.md roj-1197
+786: roj/1251/1.md roj-1251
+787: roj/1253/1.md roj-1253
+788: roj/1378/1.md roj-1378
+789: roj/1404/1.md roj-1404
+790: roj/2097/1.md roj-2097
+791: roj/5001/1.md roj-5001
+792: roj/5002/1.md roj-5002
+793: uva/1025/1.md 89b1fcc88797e1a7e16bfc962b29f723
+794: uva/11270/1.md uva-11270
+795: uva/11400/1.md 066a0e81ae533c1168fc06df69c87273
+796: uva/11584/1.md 7a8cfea83d7a5cb614af7a531e5033f0
+797: uva/116/1.md 508acbc2a824106d747f08211ffbcc7e
+798: uva/1214/1.md uav-1214
+799: uva/1225/1.md 6d3003ee2cf90f8cdbbea925b681c0c8
+800: uva/12563/1.md 6d711ea6c34c7fd311d010ddb1b71c65
+801: uva/1336/1.md uva-1336
+802: uva/1347/1.md 6507fa3d0dd9415d8c81d9da75e26c37
+803: uva/1583/1.md b1efb73c49aa122a044f93441aaf4f8f
+804: uva/1584/1.md 3696153abb353d1dab1a54418578d266
+805: uva/1586/1.md 5794f681f7a56fb348407db0de31ac3c
+806: uva/1588/1.md 8d5de18a78b6b9b42f567ebc2f6b4371
+807: uva/1628/1.md 736ad0f94bdea59b0d51c6f329fc13d1
+808: uva/340/1.md 8413713c0ac710cfe5e4f0b2484f6e56
+809: uva/401/1.md ee4a1496a7ac0b80e25743087ca358f1
+810: uva/446/1.md f26de65ca999ef00d45409ca7f611e91
+811: uva/455/1.md 3ef076c6cf81bc82ab6ceaa9766ee993
+812: uva/548/1.md uva548
+813: 题解篇/luogu提高历练地.md 58f3440f9af1158973a37b08d3fed3f6
+814: 题解篇/luogu新手村/index.md luogu-novice-village
+815: 题解篇/luogu新手村/P1001_A+B_Problem.md luogu-P1001
+816: 题解篇/luogu新手村/P1036_选数.md luogu-P1036
+817: 题解篇/luogu新手村/P1055_ISBN号码.md luogu-P1055
+818: 题解篇/luogu新手村/P1307 数字反转.md luogu-P1307
+819: 题解篇/luogu新手村/P1308_统计单词数.md luogu-P1308
+820: 题解篇/luogu新手村/P1909_买铅笔.md luogu-P1909
+821: 题解篇/luogu新手村/P1980_计数问题.md luogu-P1980
+822: 题解篇/luogu新手村/P2141_珠心算测验.md luogu-P2141
+823: 题解篇/luogu普及练习场.md luogu-pj-practice
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/1601/1.md:62
+    60| 
+    61| ```c
+ >> 62| <%- include("1.cpp") %>
+    63| ```
+    64| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/1601/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at _markdown.get_md_id (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:87:23) {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/1601/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/1080/1.md:105
+    103| 
+    104| ```c
+ >> 105| <%- include("1.cpp") %>
+    106| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/1080/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at _markdown.get_md_id (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:87:23) {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/1080/1.md'
+}
+824: 题解篇/luogu省选斗兽场.md fc096d39c2daeaf0780a273d7e1db493
+825: 题解篇/noiOpenjudge题解列表.md 2f0fd7fa285b973f060151ce4cbcbfa6
+826: 题解篇/noip提高.md noip_csp-solutions
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/3953/1.md:132
+    130| 
+    131| ```c
+ >> 132| <%- include("1.cpp") %>
+    133| ```
+    134| 
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/3953/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at _markdown.get_md_id (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:87:23) {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/3953/1.md'
+}
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/5021/1.md:129
+    127| 
+    128| ```c
+ >> 129| <%- include("1.cpp") %>
+    130| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/5021/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at _markdown.get_md_id (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:87:23) {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/5021/1.md'
+}
+827: 题解篇/noip提高/2000/方格取数.md noip2000-tg-t4
+828: 题解篇/noip提高/2002/均分纸牌.md noip2002-tg-t1
+829: 题解篇/noip提高/2002/字串变换.md noip2002-tg-t2
+830: 题解篇/noip提高/2002/自由落体.md noip2002-tg-t3
+831: 题解篇/noip提高/2003/神经网络.md cc29809aa205fd897f0eb65e22cfd598
+832: 题解篇/noip提高/2007/字符串的展开.md noip2017-tg-d1t1
+833: 题解篇/noip提高/2008/4双栈排序.md fbdf0202df732c37b4e8fa91a92d9a94
+834: 题解篇/noip提高/2008/传纸条.md 57980ec89617f5b8ea922765d41898aa
+835: 题解篇/noip提高/2008/火柴棒等式.md 9e69d388741b81557b6e034dfa2b97e4
+836: 题解篇/noip提高/2008/笨小猴.md c0838bdbb4f94855dcd0af64b96e73a5
+837: 题解篇/noip提高/2009/Hankson的趣味题.md 69c39edcf1fb6f91d204799265826dc7
+838: 题解篇/noip提高/2009/最优贸易.md a308bbb576bdd94ca6a276af3e246544
+839: 题解篇/noip提高/2009/潜伏者.md 78bf52e82ffae39d7171645594fe3c55
+840: 题解篇/noip提高/2009/靶形数独.md 08651adcfb5fcb299305c2b447496530
+841: 题解篇/noip提高/2010/乌龟棋.md 65bad97fa6bb66b27faec2638607463e
+842: 题解篇/noip提高/2010/关押罪犯.md 836700a1cd25f50496f668dfbe1d54e7
+Language does not exist: pl|intext
+843: 题解篇/noip提高/2010/引水入城.md f0532816f5d35ad02bbef0cbf66ddfb2
+844: 题解篇/noip提高/2010/机器翻译.md 90bca422fa84c0e0702323630f5ae8c8
+845: 题解篇/noip提高/2011/mayan游戏.md d4d692f675c0354e44c2000a4ed6b0eb
+846: 题解篇/noip提高/2011/聪明的质监员.md 0c1724a9290f8b622465f1c781b63809
+847: 题解篇/noip提高/2011/观光公交.md 1559710c7b13c9a6252943967cf0922a
+848: 题解篇/noip提高/2011/计算系数.md 2f360b82d0fdf69bdd270e312bb95487
+849: 题解篇/noip提高/2011/选择客栈.md 40af3111043fb5b68ac6ba645f8b9a29
+850: 题解篇/noip提高/2011/铺地毯.md noiOpenJudge-1.9-./../noip提高/2011/铺地毯.
+851: 题解篇/noip提高/2012/Vigenère密码.md d1ac1ab758ed4e46ae53f7c6c200baea
+852: 题解篇/noip提高/2012/借教室.md 93cd03c904a6659835695c432d8cb90f
+853: 题解篇/noip提高/2012/同余方程.md ae3cc055cc21239a166a235915b83370
+854: 题解篇/noip提高/2012/国王游戏.md 11aeec686b027dd1e561eec5fcbe36cf
+855: 题解篇/noip提高/2012/开车旅行.md 14210127ed6bd64f9664ffd6a1457889
+856: 题解篇/noip提高/2013/火柴排队.md noip-junior-2013-t2
+857: 题解篇/noip提高/2013/积木大赛.md noip-junior-2013-t4
+858: 题解篇/noip提高/2013/花匠.md noip-junior-2013-t5
+859: 题解篇/noip提高/2013/货车运输.md 9062131301dd46b7dd5003ea69a7396d
+860: 题解篇/noip提高/2013/转圈游戏.md noip-junior-2013-t1
+861: 题解篇/noip提高/2014/生活大爆炸.md noip2014-junior-t1
+862: 题解篇/noip提高/2018/D1T1-道路铺设.md ff4d8d74b7f6f40391dbe335424447b6
+863: 题解篇/noip提高/index.md noip_csp-solutions-bak
+864: 题解篇/noip普及.md noip_pj
+Error: /home/rainboy/mycode/rbookr/pcs/luogu/5663/1.md:135
+    133| 
+    134| ```c
+ >> 135| <%- include("1.cpp") %>
+    136| ```
+
+Could not find the include file "1.cpp"
+    at getIncludePath (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:185:13)
+    at includeFile (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:311:19)
+    at include (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:701:16)
+    at eval ("/home/rainboy/mycode/rbookr/pcs/luogu/5663/1.md":12:17)
+    at 1 (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:703:17)
+    at exports.render (/home/rainboy/mycode/rbookr/pcs/node_modules/ejs/lib/ejs.js:425:37)
+    at _markdown.ejs_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:66:24)
+    at _markdown.__pre_render (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:96:27)
+    at _markdown.only_get_yaml_header (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:148:21)
+    at _markdown.get_md_id (file:///home/rainboy/mycode/rbookr/pcs/_src/lib/markdown.js:87:23) {
+  path: '/home/rainboy/mycode/rbookr/pcs/luogu/5663/1.md'
+}
+865: 题解篇/usacoTranning.md cc0a9b6d564a9385eda3a23053a7b8b0
+866: 题解篇/书籍的题解/信息学奥赛一本通.md xxxaybt
+867: 题解篇/书籍的题解/算法竞赛入门经典-训练指南.md bluebook-solutions
+868: 题解篇/书籍的题解/算法竞赛入门经典.md 77e536c18385b46fab0a6cbe1d5fcca0
+869: 题解篇/书籍的题解/算法竞赛进阶指南.md lyd-jzzn
+Done in 3.09s.

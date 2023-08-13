@@ -1,0 +1,68 @@
+<%
+luogu_samples_2_tables = function(samples){
+    if(!samples) return ""
+    if(samples.length == 0) return ""
+    let res = ["|----|----|"]
+    for(let i = 0 ;i < samples.length ;i++){
+        let [input,output] = samples[i]
+        //console.log(input.split('\n'))
+        input_arr = input.split('\n')
+        input_arr.push("```")
+        input_arr.unshift("```")
+        input_arr.unshift(`输入 #${i+1}`)
+
+        output_arr = output.split('\n')
+        output_arr.push("```")
+        output_arr.unshift("```")
+        output_arr.unshift(`输出 #${i+1}`)
+
+        let m = Math.max(input_arr.length,output_arr.length)
+        for( let j = 0; j< m; j++){
+        res.push(`|${ j < input_arr.length ? input_arr[j] : ' '}  |${j < output_arr.length ? output_arr[j] : ' ' }  ${j == m-1 || j==0 ? '|' :'\\'}`)
+        }
+    }
+    return res.join('\n')
+}
+function dateFormat(fmt, date) {
+    let ret;
+    let opt = {
+        "Y+": date.getFullYear().toString(),        // 年
+        "m+": (date.getMonth() + 1).toString(),     // 月
+        "d+": date.getDate().toString(),            // 日
+        "H+": date.getHours().toString(),           // 时
+        "M+": date.getMinutes().toString(),         // 分
+        "S+": date.getSeconds().toString()          // 秒
+        // 有其他格式化字符需求可以继续添加，必须转化成字符串
+    };
+    for (let k in opt) {
+        ret = new RegExp("(" + k + ")").exec(fmt);
+        if (ret) {
+            fmt = fmt.replace(ret[1], (ret[1].length == 1) ? (opt[k]) : (opt[k].padStart(ret[1].length, "0")))
+        };
+    };
+    return fmt;
+}
+%>
+---
+_id: "acwing-<%- pid %>"
+title: "<%- title %>"
+date: <%- dateFormat("YYY-mm-dd HH:MM", new Date()) %>
+update: <%- dateFormat("YYY-mm-dd HH:MM", new Date()) %>
+author: Rainboy
+tags: <% for( let tag of tags){%>
+    - <%- tag _%>
+<%}%>
+source: 
+    - 
+      oj: acwing-<%- parseInt(pid)+2 %>
+      url: "https://www.acwing.com/problem/content/<%- parseInt(pid)+2 %>/"
+---
+
+## 解析
+
+
+## 代码
+
+```c
+<%%- include("2.cpp") %>
+```
