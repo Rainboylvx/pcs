@@ -25,7 +25,7 @@ var md = MarkdownIt({
 md.use( require("./lib/preWrapper.cjs"))
     .use( require("./lib/lineNumber.cjs"))
     .use(tm, { engine: require('katex'),
-        delimiters: 'dollars',
+        delimiters: ['dollars','beg_end','julia'],
         katexOptions: { macros: {"\\RR": "\\mathbb{R}"} } })
     .use( require("markdown-it-emoji") )
     // .use( require("markdown-it-multimd-table") ,{

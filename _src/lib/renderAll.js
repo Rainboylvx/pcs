@@ -10,7 +10,7 @@ import {join,resolve} from 'path'
 //渲染时需要的数据
 const ejs_data  = {
     USER : {
-        ROJ:'https://roj.ac.cn'
+        ROJ:'https://roj.ac.cn/'
     }
 }
 
